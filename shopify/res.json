@@ -1,0 +1,1370 @@
+{
+    "data": {
+        "session": {
+            "negotiate": {
+                "__typename": "NegotiationResultPayload",
+                "result": {
+                    "queueToken": "AstEld3eBT4mNkUFDMwBUqSieIENg0V8LS23-CaaLInMIsU-_mkJ-6OmUqpWcDHkSeiM5CLgGY0yIJ_QPsIZYusVmP7KObD8kN_J_IinByAMLTNqZzFnBpnWFTiOeHGsp2A=",
+                    "buyerProposal": {
+                        "buyerIdentity": {
+                            "contactInfoV2": {
+                                "email": "bopotev595@egela.com",
+                                "__typename": "EmailFormContents"
+                            },
+                            "customer": {
+                                "__typename": "GuestProfile"
+                            },
+                            "__typename": "FilledBuyerIdentityTerms"
+                        },
+                        "merchandiseDiscount": {
+                            "__typename": "FilledDiscountTerms",
+                            "acceptUnexpectedDiscounts": true,
+                            "lines": []
+                        },
+                        "deliveryDiscount": {
+                            "__typename": "FilledDiscountTerms",
+                            "acceptUnexpectedDiscounts": true,
+                            "lines": []
+                        },
+                        "delivery": {
+                            "__typename": "FilledDeliveryTerms",
+                            "intermediateRates": false,
+                            "progressiveRatesEstimatedTimeUntilCompletion": 0,
+                            "shippingRatesStatusToken": "",
+                            "deliveryLines": [
+                                {
+                                    "destinationAddress": {
+                                        "name": "azaan",
+                                        "firstName": "azaan",
+                                        "lastName": "ayaz",
+                                        "company": null,
+                                        "address1": "302 Old Canterbury Rd",
+                                        "address2": null,
+                                        "city": "Sydney",
+                                        "countryCode": "AU",
+                                        "zoneCode": "NSW",
+                                        "postalCode": "2203",
+                                        "phone": "61489921018",
+                                        "oneTimeUse": false,
+                                        "coordinates": {
+                                            "latitude": -33.904159,
+                                            "longitude": 151.1287504,
+                                            "__typename": "GeographicalCoordinates"
+                                        },
+                                        "__typename": "PartialStreetAddress"
+                                    },
+                                    "targetMerchandise": {
+                                        "__typename": "AnyMerchandiseLineTargetCollection"
+                                    },
+                                    "groupType": "ONE_TIME_PURCHASE",
+                                    "deliveryMethodTypes": [
+                                        "SHIPPING"
+                                    ],
+                                    "selectedDeliveryStrategy": {
+                                        "__typename": "DeliveryStrategyMatcher"
+                                    },
+                                    "availableDeliveryStrategies": [],
+                                    "__typename": "DeliveryLine"
+                                }
+                            ],
+                            "availableDeliveryAddresses": [],
+                            "mustUseProvidedAddress": false
+                        },
+                        "merchandise": {
+                            "taxesIncluded": true,
+                            "merchandiseLines": [
+                                {
+                                    "stableId": "72ed6164-51c2-4f7f-b36e-cdfd0dff86ad",
+                                    "merchandise": {
+                                        "__typename": "ProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46991577448763",
+                                        "digest": "5f97164b4757ffbf1f0e4ccf9cefba16",
+                                        "variantId": "gid://shopify/ProductVariant/46991577448763",
+                                        "title": "25th Anniversary Collection",
+                                        "untranslatedTitle": "25th Anniversary Collection",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "product": {
+                                            "id": "gid://shopify/Product/8806570426683",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/25th-anniversary-collection",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Web_Images_Anniversary_Collection_01.2_64x64.png?v=1718757976",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Web_Images_Anniversary_Collection_01.2_128x128.png?v=1718757976",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Web_Images_Anniversary_Collection_01.2_256x256.png?v=1718757976",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 1,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "350.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "312b9d767bbe6ea830f088442e6f2133",
+                                            "quantity": 1,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                },
+                                {
+                                    "stableId": "6ba717f0-ced0-474c-a0a4-cfdd91a5132a",
+                                    "merchandise": {
+                                        "__typename": "ProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46081847066939",
+                                        "digest": "f2f3dbe83a2aa016626670ae5866a5e0",
+                                        "variantId": "gid://shopify/ProductVariant/46081847066939",
+                                        "title": "Signature Hydration",
+                                        "untranslatedTitle": "Signature Hydration",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "product": {
+                                            "id": "gid://shopify/Product/8589344178491",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "KITS",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/signature-hydration",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_39_5100b959-4d9c-41c5-9e41-834985212ee5_64x64.png?v=1704152378",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_39_5100b959-4d9c-41c5-9e41-834985212ee5_128x128.png?v=1704152378",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_39_5100b959-4d9c-41c5-9e41-834985212ee5_256x256.png?v=1704152378",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 2,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "308.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "ed0244fb43bf4bb80d0b168f4842e341",
+                                            "quantity": 2,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                },
+                                {
+                                    "stableId": "dd0227de-5dcf-463d-b93e-19f8d07fa5e1",
+                                    "merchandise": {
+                                        "__typename": "ProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46081847198011",
+                                        "digest": "9a388337cb6edfb26bb3298c8c2c22cb",
+                                        "variantId": "gid://shopify/ProductVariant/46081847198011",
+                                        "title": "Restore & Recharge",
+                                        "untranslatedTitle": "Restore & Recharge",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "product": {
+                                            "id": "gid://shopify/Product/8589344309563",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "KITS",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/restore-recharge",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_40_64x64.png?v=1704152385",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_40_128x128.png?v=1704152385",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_40_256x256.png?v=1704152385",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 2,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "236.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "9c5c80392106068025bfff54af3d1f0c",
+                                            "quantity": 2,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                },
+                                {
+                                    "stableId": "407e7d8e-add0-47fa-8f48-33592b7a5228",
+                                    "merchandise": {
+                                        "__typename": "ProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46081843036475",
+                                        "digest": "e77d292b70b012a50bc964b78c3e93ed",
+                                        "variantId": "gid://shopify/ProductVariant/46081843036475",
+                                        "title": "Triple Radiance Glow",
+                                        "untranslatedTitle": "Triple Radiance Glow",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "product": {
+                                            "id": "gid://shopify/Product/8589342933307",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "KITS",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/triple-radiance-glow",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_41_4675d981-9762-4968-9fcc-97f098227de3_64x64.png?v=1704152369",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_41_4675d981-9762-4968-9fcc-97f098227de3_128x128.png?v=1704152369",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_41_4675d981-9762-4968-9fcc-97f098227de3_256x256.png?v=1704152369",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 1,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "78.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "328b4365348f69e170b3e4ae6da93a9a",
+                                            "quantity": 1,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                }
+                            ],
+                            "__typename": "FilledMerchandiseTerms"
+                        },
+                        "runningTotal": {
+                            "value": {
+                                "amount": "972.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "total": {
+                            "__typename": "AnyConstraint"
+                        },
+                        "checkoutTotalBeforeTaxesAndShipping": null,
+                        "checkoutTotalTaxes": null,
+                        "checkoutTotal": {
+                            "__typename": "AnyConstraint"
+                        },
+                        "deferredTotal": null,
+                        "hasOnlyDeferredShipping": false,
+                        "subtotalBeforeTaxesAndShipping": {
+                            "value": {
+                                "amount": "972.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "legacySubtotalBeforeTaxesShippingAndFees": {
+                            "value": {
+                                "amount": "972.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "legacyAggregatedMerchandiseTermsAsFees": [],
+                        "attribution": {
+                            "attributions": [],
+                            "__typename": "Attribution"
+                        },
+                        "saleAttributions": {
+                            "attributions": [],
+                            "__typename": "SaleAttributions"
+                        },
+                        "__typename": "Proposal"
+                    },
+                    "sellerProposal": {
+                        "merchandiseDiscount": {
+                            "__typename": "FilledDiscountTerms",
+                            "acceptUnexpectedDiscounts": true,
+                            "lines": []
+                        },
+                        "deliveryDiscount": {
+                            "__typename": "FilledDiscountTerms",
+                            "acceptUnexpectedDiscounts": true,
+                            "lines": []
+                        },
+                        "deliveryExpectations": {
+                            "__typename": "PendingTerms",
+                            "pollDelay": 500,
+                            "taskId": "delivery-policy-Z2NwLWFzaWEtc291dGhlYXN0MTowMUoxNEszWTVFWTJSWlRIWEowU01FV1Y3Rg"
+                        },
+                        "availableRedeemables": {
+                            "availableRedeemables": [],
+                            "__typename": "AvailableRedeemables"
+                        },
+                        "delivery": {
+                            "pollDelay": 500,
+                            "taskId": "delivery-policy-Z2NwLWFzaWEtc291dGhlYXN0MTowMUoxNEszWTVFWTJSWlRIWEowU01FV1Y3Rg",
+                            "__typename": "PendingTerms"
+                        },
+                        "payment": {
+                            "availablePaymentLines": [
+                                {
+                                    "placements": [
+                                        "PAYMENT_METHOD"
+                                    ],
+                                    "paymentMethod": {
+                                        "__typename": "AnyGiftCardPaymentMethod"
+                                    },
+                                    "__typename": "AvailablePaymentLine"
+                                },
+                                {
+                                    "placements": [
+                                        "PAYMENT_METHOD"
+                                    ],
+                                    "paymentMethod": {
+                                        "paymentMethodIdentifier": "b185f705664b4bd3c0e12186b5a62f0b",
+                                        "name": "shopify_payments",
+                                        "brands": [
+                                            "VISA",
+                                            "MASTERCARD",
+                                            "AMEX",
+                                            "JCB"
+                                        ],
+                                        "orderingIndex": 2,
+                                        "displayName": null,
+                                        "extensibilityDisplayName": "Shopify Payments",
+                                        "availablePresentmentCurrencies": [
+                                            "AUD"
+                                        ],
+                                        "paymentMethodUiExtension": null,
+                                        "checkoutHostedFields": null,
+                                        "alternative": false,
+                                        "__typename": "PaymentProvider"
+                                    },
+                                    "__typename": "AvailablePaymentLine"
+                                },
+                                {
+                                    "placements": [
+                                        "PAYMENT_METHOD",
+                                        "ACCELERATED_CHECKOUT"
+                                    ],
+                                    "paymentMethod": {
+                                        "__typename": "PaypalWalletConfig",
+                                        "name": "PAYPAL_EXPRESS",
+                                        "clientId": null,
+                                        "merchantId": "NUR96ZKTL95NQ",
+                                        "venmoEnabled": false,
+                                        "payflow": false,
+                                        "paymentIntent": "AUTHORIZE",
+                                        "paymentMethodIdentifier": "a146545dc8eef7904414e7f0b16a8465",
+                                        "orderingIndex": 3
+                                    },
+                                    "__typename": "AvailablePaymentLine"
+                                },
+                                {
+                                    "placements": [
+                                        "ACCELERATED_CHECKOUT"
+                                    ],
+                                    "paymentMethod": {
+                                        "__typename": "ApplePayWalletConfig",
+                                        "name": "APPLE_PAY",
+                                        "supportedNetworks": [
+                                            "visa",
+                                            "masterCard",
+                                            "amex",
+                                            "jcb"
+                                        ],
+                                        "walletAuthenticationToken": "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMzODQifQ.eyJjaGVja291dF90b2tlbiI6Ijg4ZWFhYTZiNGEzMDk4ZDc0YTYwNGUxZjlkOGIwYTUyIiwib3JkZXJfdHlwZV9pZCI6Im9yZGVyLmNvbS5zaG9waWZ5LnNob3AiLCJpc3MiOiJzaG9waWZ5IiwiaWF0IjoxNzE5MjI3NzE0LCJleHAiOjE3MzQ3Nzk3MTR9.6ro4YZ2dofuItZql1p6Jn63twoFjj4Hl8Pir9j0_gt3d-PhX8c9K-C6KL3Sc0xmi",
+                                        "walletOrderTypeIdentifier": "order.com.shopify.shop",
+                                        "walletServiceUrl": "https://wallet-order-service.shopifyapps.com",
+                                        "paymentMethodIdentifier": "868877359f630ba66b3bc3e3f53dac31",
+                                        "orderingIndex": 4
+                                    },
+                                    "__typename": "AvailablePaymentLine"
+                                },
+                                {
+                                    "placements": [
+                                        "ACCELERATED_CHECKOUT"
+                                    ],
+                                    "paymentMethod": {
+                                        "__typename": "GooglePayWalletConfig",
+                                        "name": "GOOGLE_PAY",
+                                        "allowedAuthMethods": [
+                                            "PAN_ONLY",
+                                            "CRYPTOGRAM_3DS"
+                                        ],
+                                        "allowedCardNetworks": [
+                                            "VISA",
+                                            "MASTERCARD",
+                                            "AMEX",
+                                            "JCB"
+                                        ],
+                                        "gateway": "shopify",
+                                        "gatewayMerchantId": "77008044347",
+                                        "merchantId": "16708973830884969730",
+                                        "authJwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJtZXJjaGFudElkIjoiMTY3MDg5NzM4MzA4ODQ5Njk3MzAiLCJtZXJjaGFudE9yaWdpbiI6InNvZGFzaGkuY29tLmF1IiwiaWF0IjoxNzE5MjI3NzE0fQ.Dr4wOfl_I218mLtZPMqYTpp0uj6LK7S5KSFvp3hEHnuur3DUdkT0Yxf9bQNhoG632AcVLJCr3lDFmeu2xrjqYA",
+                                        "environment": "PRODUCTION",
+                                        "paymentMethodIdentifier": "83f0a98761196c9d7c29c756379d6c66",
+                                        "orderingIndex": 5
+                                    },
+                                    "__typename": "AvailablePaymentLine"
+                                },
+                                {
+                                    "placements": [
+                                        "PAYMENT_METHOD",
+                                        "ACCELERATED_CHECKOUT"
+                                    ],
+                                    "paymentMethod": {
+                                        "__typename": "ShopPayWalletConfig",
+                                        "name": "SHOP_PAY",
+                                        "storefrontUrl": "https://sodashi.com.au/",
+                                        "paymentMethodIdentifier": "8642a3c1775e0ce6d3d60e23f2623371",
+                                        "orderingIndex": 6
+                                    },
+                                    "__typename": "AvailablePaymentLine"
+                                },
+                                {
+                                    "placements": [
+                                        "PAYMENT_METHOD"
+                                    ],
+                                    "paymentMethod": {
+                                        "__typename": "OffsiteProvider",
+                                        "paymentMethodIdentifier": "a1cfad442130be2cefcce7eba9a86804",
+                                        "name": "Afterpay",
+                                        "paymentBrands": [
+                                            "afterpay"
+                                        ],
+                                        "orderingIndex": 7,
+                                        "showRedirectionNotice": true,
+                                        "availablePresentmentCurrencies": [
+                                            "AUD"
+                                        ]
+                                    },
+                                    "__typename": "AvailablePaymentLine"
+                                }
+                            ],
+                            "paymentLines": [],
+                            "billingAddress": {
+                                "firstName": "azaan",
+                                "lastName": "ayaz",
+                                "company": null,
+                                "address1": "302 Old Canterbury Rd",
+                                "address2": null,
+                                "city": "Sydney",
+                                "countryCode": "AU",
+                                "zoneCode": "NSW",
+                                "postalCode": "2203",
+                                "phone": "61489921018",
+                                "__typename": "StreetAddress"
+                            },
+                            "paymentFlexibilityPaymentTermsTemplate": null,
+                            "__typename": "FilledPaymentTerms"
+                        },
+                        "poNumber": null,
+                        "merchandise": {
+                            "taxesIncluded": true,
+                            "merchandiseLines": [
+                                {
+                                    "stableId": "72ed6164-51c2-4f7f-b36e-cdfd0dff86ad",
+                                    "merchandise": {
+                                        "__typename": "ContextualizedProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46991577448763",
+                                        "digest": "5f97164b4757ffbf1f0e4ccf9cefba16",
+                                        "variantId": "gid://shopify/ProductVariant/46991577448763",
+                                        "title": "25th Anniversary Collection",
+                                        "untranslatedTitle": "25th Anniversary Collection",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "sku": "KANN001.00-3",
+                                        "price": {
+                                            "amount": "350.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "product": {
+                                            "id": "gid://shopify/Product/8806570426683",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/25th-anniversary-collection",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Web_Images_Anniversary_Collection_01.2_64x64.png?v=1718757976",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Web_Images_Anniversary_Collection_01.2_128x128.png?v=1718757976",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Web_Images_Anniversary_Collection_01.2_256x256.png?v=1718757976",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false,
+                                        "deferredAmount": {
+                                            "amount": "0.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        }
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 1,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "350.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "312b9d767bbe6ea830f088442e6f2133",
+                                            "quantity": 1,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "350.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [
+                                                {
+                                                    "__typename": "LineComponentTaxAllocation"
+                                                }
+                                            ],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                },
+                                {
+                                    "stableId": "6ba717f0-ced0-474c-a0a4-cfdd91a5132a",
+                                    "merchandise": {
+                                        "__typename": "ContextualizedProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46081847066939",
+                                        "digest": "f2f3dbe83a2aa016626670ae5866a5e0",
+                                        "variantId": "gid://shopify/ProductVariant/46081847066939",
+                                        "title": "Signature Hydration",
+                                        "untranslatedTitle": "Signature Hydration",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "sku": "KSIH001.00-3",
+                                        "price": {
+                                            "amount": "154.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "product": {
+                                            "id": "gid://shopify/Product/8589344178491",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "KITS",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/signature-hydration",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_39_5100b959-4d9c-41c5-9e41-834985212ee5_64x64.png?v=1704152378",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_39_5100b959-4d9c-41c5-9e41-834985212ee5_128x128.png?v=1704152378",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_39_5100b959-4d9c-41c5-9e41-834985212ee5_256x256.png?v=1704152378",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false,
+                                        "deferredAmount": {
+                                            "amount": "0.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        }
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 2,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "308.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "ed0244fb43bf4bb80d0b168f4842e341",
+                                            "quantity": 2,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "308.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [
+                                                {
+                                                    "__typename": "LineComponentTaxAllocation"
+                                                }
+                                            ],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                },
+                                {
+                                    "stableId": "dd0227de-5dcf-463d-b93e-19f8d07fa5e1",
+                                    "merchandise": {
+                                        "__typename": "ContextualizedProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46081847198011",
+                                        "digest": "9a388337cb6edfb26bb3298c8c2c22cb",
+                                        "variantId": "gid://shopify/ProductVariant/46081847198011",
+                                        "title": "Restore & Recharge",
+                                        "untranslatedTitle": "Restore & Recharge",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "sku": "KRER001.00-4",
+                                        "price": {
+                                            "amount": "118.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "product": {
+                                            "id": "gid://shopify/Product/8589344309563",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "KITS",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/restore-recharge",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_40_64x64.png?v=1704152385",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_40_128x128.png?v=1704152385",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_40_256x256.png?v=1704152385",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false,
+                                        "deferredAmount": {
+                                            "amount": "0.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        }
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 2,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "236.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "9c5c80392106068025bfff54af3d1f0c",
+                                            "quantity": 2,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "236.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [
+                                                {
+                                                    "__typename": "LineComponentTaxAllocation"
+                                                }
+                                            ],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                },
+                                {
+                                    "stableId": "407e7d8e-add0-47fa-8f48-33592b7a5228",
+                                    "merchandise": {
+                                        "__typename": "ContextualizedProductVariantMerchandise",
+                                        "id": "gid://shopify/ProductVariantMerchandise/46081843036475",
+                                        "digest": "e77d292b70b012a50bc964b78c3e93ed",
+                                        "variantId": "gid://shopify/ProductVariant/46081843036475",
+                                        "title": "Triple Radiance Glow",
+                                        "untranslatedTitle": "Triple Radiance Glow",
+                                        "subtitle": null,
+                                        "untranslatedSubtitle": null,
+                                        "sku": "KTRG001.00-3",
+                                        "price": {
+                                            "amount": "78.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "product": {
+                                            "id": "gid://shopify/Product/8589342933307",
+                                            "vendor": "Sodashi Skincare",
+                                            "productType": "KITS",
+                                            "__typename": "Product"
+                                        },
+                                        "productUrl": "/products/triple-radiance-glow",
+                                        "image": {
+                                            "altText": null,
+                                            "one": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_41_4675d981-9762-4968-9fcc-97f098227de3_64x64.png?v=1704152369",
+                                            "two": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_41_4675d981-9762-4968-9fcc-97f098227de3_128x128.png?v=1704152369",
+                                            "four": "https://cdn.shopify.com/s/files/1/0770/0804/4347/files/Serum21LaunchPost_1month_41_4675d981-9762-4968-9fcc-97f098227de3_256x256.png?v=1704152369",
+                                            "__typename": "Image"
+                                        },
+                                        "properties": [],
+                                        "requiresShipping": true,
+                                        "options": [
+                                            {
+                                                "name": "Title",
+                                                "value": "Default Title",
+                                                "__typename": "ProductVariantOption"
+                                            }
+                                        ],
+                                        "sellingPlan": null,
+                                        "giftCard": false,
+                                        "deferredAmount": {
+                                            "amount": "0.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        }
+                                    },
+                                    "quantity": {
+                                        "items": {
+                                            "value": 1,
+                                            "__typename": "IntValueConstraint"
+                                        },
+                                        "__typename": "ProposalMerchandiseQuantityByItem"
+                                    },
+                                    "totalAmount": {
+                                        "value": {
+                                            "amount": "78.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    },
+                                    "recurringTotal": null,
+                                    "lineAllocations": [
+                                        {
+                                            "stableId": "328b4365348f69e170b3e4ae6da93a9a",
+                                            "quantity": 1,
+                                            "totalAmountBeforeReductions": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "totalAmountAfterLineDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceAfterLineDiscounts": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "checkoutPriceBeforeReductions": {
+                                                "amount": "78.0",
+                                                "currencyCode": "AUD",
+                                                "__typename": "Money"
+                                            },
+                                            "unitPrice": null,
+                                            "allocations": [
+                                                {
+                                                    "__typename": "LineComponentTaxAllocation"
+                                                }
+                                            ],
+                                            "__typename": "LineAllocation"
+                                        }
+                                    ],
+                                    "lineComponentsSource": null,
+                                    "lineComponents": [],
+                                    "legacyFee": false,
+                                    "__typename": "MerchandiseLine"
+                                }
+                            ],
+                            "__typename": "FilledMerchandiseTerms"
+                        },
+                        "note": {
+                            "customAttributes": [],
+                            "message": null,
+                            "__typename": "Note"
+                        },
+                        "scriptFingerprint": {
+                            "signature": null,
+                            "signatureUuid": null,
+                            "lineItemScriptChanges": [],
+                            "paymentScriptChanges": [],
+                            "shippingScriptChanges": [],
+                            "__typename": "ScriptFingerprint"
+                        },
+                        "transformerFingerprintV2": null,
+                        "buyerIdentity": {
+                            "customer": {
+                                "presentmentCurrency": "AUD",
+                                "countryCode": "AU",
+                                "market": {
+                                    "id": "gid://shopify/Market/57893683515",
+                                    "handle": "au",
+                                    "__typename": "Market"
+                                },
+                                "shippingAddresses": [],
+                                "__typename": "GuestProfile"
+                            },
+                            "purchasingCompany": null,
+                            "contactInfoV2": {
+                                "email": "bopotev595@egela.com",
+                                "__typename": "EmailFormContents"
+                            },
+                            "marketingConsent": [
+                                {
+                                    "value": "bopotev595@egela.com",
+                                    "__typename": "EmailMarketingConsent"
+                                }
+                            ],
+                            "shopPayOptInPhone": "+61489921018",
+                            "__typename": "FilledBuyerIdentityTerms"
+                        },
+                        "checkoutCompletionTarget": "ORDER",
+                        "recurringTotals": [],
+                        "subtotalBeforeTaxesAndShipping": {
+                            "value": {
+                                "amount": "972.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "legacySubtotalBeforeTaxesShippingAndFees": {
+                            "value": {
+                                "amount": "972.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "legacyAggregatedMerchandiseTermsAsFees": [],
+                        "legacyRepresentProductsAsFees": false,
+                        "totalSavings": {
+                            "value": {
+                                "amount": "0.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "runningTotal": {
+                            "value": {
+                                "amount": "972.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "total": {
+                            "__typename": "AnyConstraint"
+                        },
+                        "checkoutTotalBeforeTaxesAndShipping": null,
+                        "checkoutTotalTaxes": null,
+                        "checkoutTotal": {
+                            "__typename": "AnyConstraint"
+                        },
+                        "deferredTotal": null,
+                        "hasOnlyDeferredShipping": false,
+                        "subtotalBeforeReductions": {
+                            "value": {
+                                "amount": "972.0",
+                                "currencyCode": "AUD",
+                                "__typename": "Money"
+                            },
+                            "__typename": "MoneyValueConstraint"
+                        },
+                        "duty": {
+                            "totalDutyAmount": null,
+                            "totalTaxAndDutyAmount": null,
+                            "totalAdditionalFeesAmount": null,
+                            "__typename": "FilledDutyTerms"
+                        },
+                        "tax": {
+                            "totalTaxAmount": null,
+                            "totalTaxAndDutyAmount": null,
+                            "totalAmountIncludedInTarget": {
+                                "value": {
+                                    "amount": "88.36",
+                                    "currencyCode": "AUD",
+                                    "__typename": "Money"
+                                },
+                                "__typename": "MoneyValueConstraint"
+                            },
+                            "exemptions": [],
+                            "__typename": "FilledTaxTerms"
+                        },
+                        "tip": {
+                            "tipSuggestions": [
+                                {
+                                    "__typename": "TipSuggestion",
+                                    "percentage": 0.15,
+                                    "amount": {
+                                        "value": {
+                                            "amount": "145.8",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    }
+                                },
+                                {
+                                    "__typename": "TipSuggestion",
+                                    "percentage": 0.18,
+                                    "amount": {
+                                        "value": {
+                                            "amount": "174.96",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    }
+                                },
+                                {
+                                    "__typename": "TipSuggestion",
+                                    "percentage": 0.2,
+                                    "amount": {
+                                        "value": {
+                                            "amount": "194.4",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    }
+                                },
+                                {
+                                    "__typename": "TipSuggestion",
+                                    "percentage": 0.0,
+                                    "amount": {
+                                        "value": {
+                                            "amount": "0.0",
+                                            "currencyCode": "AUD",
+                                            "__typename": "Money"
+                                        },
+                                        "__typename": "MoneyValueConstraint"
+                                    }
+                                }
+                            ],
+                            "terms": {
+                                "tipLines": [],
+                                "__typename": "FilledTipTerms"
+                            },
+                            "__typename": "TipWrapper"
+                        },
+                        "localizationExtension": {
+                            "fields": [],
+                            "__typename": "LocalizationExtension"
+                        },
+                        "landedCostDetails": {
+                            "incotermInformation": null,
+                            "__typename": "LandedCostDetails"
+                        },
+                        "dutiesIncluded": false,
+                        "nonNegotiableTerms": null,
+                        "optionalDuties": {
+                            "buyerRefusesDuties": false,
+                            "refuseDutiesPermitted": false,
+                            "__typename": "OptionalDuties"
+                        },
+                        "attribution": {
+                            "attributions": [],
+                            "__typename": "Attribution"
+                        },
+                        "saleAttributions": {
+                            "attributions": [],
+                            "__typename": "SaleAttributions"
+                        },
+                        "managedByMarketsPro": false,
+                        "captcha": null,
+                        "cartCheckoutValidation": null,
+                        "alternativePaymentCurrency": null,
+                        "isShippingRequired": true,
+                        "__typename": "Proposal"
+                    },
+                    "__typename": "NegotiationResultAvailable"
+                },
+                "errors": [
+                    {
+                        "code": "PAYMENTS_UNACCEPTABLE_PAYMENT_AMOUNT",
+                        "localizedMessage": "Your order total has changed. Review and try again.",
+                        "nonLocalizedMessage": "The sum of proposed payments cannot cover the total amount to be paid.",
+                        "localizedMessageHtml": "Your order total has changed. Review and try again.",
+                        "target": "$.payment",
+                        "__typename": "UnprocessableTermViolation"
+                    },
+                    {
+                        "code": "WAITING_PENDING_TERMS",
+                        "localizedMessage": "",
+                        "nonLocalizedMessage": "Waiting for pending terms to complete.",
+                        "localizedMessageHtml": null,
+                        "__typename": "PendingTermViolation"
+                    }
+                ]
+            },
+            "__typename": "Session"
+        }
+    }
+}
