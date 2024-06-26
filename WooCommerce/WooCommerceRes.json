@@ -1,0 +1,37 @@
+{
+	"order_id": 146,
+	"status": "on-hold",
+	"order_key": "wc_order_VPffqyvgWVqWL",
+	"customer_note": "",
+	"customer_id": 1,
+	"billing_address": {
+		"first_name": "Peter",
+		"last_name": "Venkman",
+		"company": "",
+		"address_1": "550 Central Park West",
+		"address_2": "Corner Penthouse Spook Central",
+		"city": "New York",
+		"state": "NY",
+		"postcode": "10023",
+		"country": "US",
+		"email": "admin@example.com",
+		"phone": "555-2368"
+	},
+	"shipping_address": {
+		"first_name": "Peter",
+		"last_name": "Venkman",
+		"company": "",
+		"address_1": "550 Central Park West",
+		"address_2": "Corner Penthouse Spook Central",
+		"city": "New York",
+		"state": "NY",
+		"postcode": "10023",
+		"country": "US"
+	},
+	"payment_method": "cheque",
+	"payment_result": {
+		"payment_status": "success",
+		"payment_details": [],
+		"redirect_url": "https://local.wordpress.test/block-checkout/order-received/146/?key=wc_order_VPffqyvgWVqWL"
+	}
+}
