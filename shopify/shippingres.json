@@ -1,0 +1,21 @@
+{
+    "rates": [
+      {
+        "service_name": "Standard Shipping",
+        "service_code": "standard",
+        "total_price": "1500",
+        "currency": "AUD",
+        "min_delivery_date": "2024-07-01T10:00:00Z",
+        "max_delivery_date": "2024-07-05T10:00:00Z"
+      },
+      {
+        "service_name": "Express Shipping",
+        "service_code": "express",
+        "total_price": "2500",
+        "currency": "AUD",
+        "min_delivery_date": "2024-07-01T10:00:00Z",
+        "max_delivery_date": "2024-07-02T10:00:00Z"
+      }
+    ]
+  }
+  

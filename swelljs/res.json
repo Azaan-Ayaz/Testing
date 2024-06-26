@@ -1,0 +1,447 @@
+{
+    "account_id": "acct_16PRXgAd3k001mx3",
+    "apple_pay_merchant_token_webhook_url": "https://pm-hooks.stripe.com/apple_pay/merchant_token/pDq7tf9uieoQWMVJixFwuOve/acct_16PRXgAd3k001mx3/",
+    "apple_pay_preference": "enabled",
+    "business_name": "Orchard Mile, Inc.",
+    "card_brand_choice": {
+      "eligible": false,
+      "preferred_networks": [
+        "cartes_bancaires"
+      ],
+      "supported_cobranded_networks": {
+        "cartes_bancaires": false
+      }
+    },
+    "experiments_data": {
+      "arb_id": "56376d95-4788-4f6d-b5fe-762887e76054",
+      "experiment_assignments": {
+        "elements_link_longterm_holdback_v2": "control",
+        "elements_merchant_ui_api_srv": "control",
+        "elements_payment_element_input_labels": "treatment_3",
+        "elements_progressive_cursor_v2": "control",
+        "link_popup_webview_option_ios": "control"
+      }
+    },
+    "external_payment_method_data": null,
+    "flags": {
+      "cbc_in_link_popup": false,
+      "disable_cbc_in_link_popup": false,
+      "ece_apple_pay_payment_request_passthrough": false,
+      "elements_disable_express_checkout_button_amazon_pay": false,
+      "elements_disable_link_email_otp": false,
+      "elements_disable_payment_element_card_country_zip_validations": false,
+      "elements_disable_paypal_express": false,
+      "elements_disable_recurring_express_checkout_button_amazon_pay": false,
+      "elements_enable_blik": true,
+      "elements_enable_br_card_installments": false,
+      "elements_enable_card_brand_choice_payment_element_link": true,
+      "elements_enable_card_brand_choice_payment_element_spm": true,
+      "elements_enable_express_checkout_button_demo_pay": false,
+      "elements_enable_external_payment_method_alipay_mobile": false,
+      "elements_enable_external_payment_method_amazon_pay": false,
+      "elements_enable_external_payment_method_aplazame": false,
+      "elements_enable_external_payment_method_aplazo": false,
+      "elements_enable_external_payment_method_atome": false,
+      "elements_enable_external_payment_method_atone": false,
+      "elements_enable_external_payment_method_au_pay": false,
+      "elements_enable_external_payment_method_azupay": false,
+      "elements_enable_external_payment_method_bankaxept": false,
+      "elements_enable_external_payment_method_benefit": false,
+      "elements_enable_external_payment_method_billie": false,
+      "elements_enable_external_payment_method_bizum": false,
+      "elements_enable_external_payment_method_bluecode": false,
+      "elements_enable_external_payment_method_bpay": false,
+      "elements_enable_external_payment_method_catch": false,
+      "elements_enable_external_payment_method_check": false,
+      "elements_enable_external_payment_method_coinbase_pay": false,
+      "elements_enable_external_payment_method_dankort": false,
+      "elements_enable_external_payment_method_dapp": false,
+      "elements_enable_external_payment_method_dbarai": false,
+      "elements_enable_external_payment_method_divido": false,
+      "elements_enable_external_payment_method_ebt_snap": false,
+      "elements_enable_external_payment_method_eftpos_australia": false,
+      "elements_enable_external_payment_method_famipay": false,
+      "elements_enable_external_payment_method_fawry": false,
+      "elements_enable_external_payment_method_fonix": false,
+      "elements_enable_external_payment_method_gcash": false,
+      "elements_enable_external_payment_method_girocard": false,
+      "elements_enable_external_payment_method_gopay": false,
+      "elements_enable_external_payment_method_grabpay_later": false,
+      "elements_enable_external_payment_method_hands_in": false,
+      "elements_enable_external_payment_method_humm": false,
+      "elements_enable_external_payment_method_interac": false,
+      "elements_enable_external_payment_method_iwocapay": false,
+      "elements_enable_external_payment_method_kbc": false,
+      "elements_enable_external_payment_method_knet": false,
+      "elements_enable_external_payment_method_kriya": false,
+      "elements_enable_external_payment_method_laybuy": false,
+      "elements_enable_external_payment_method_line_pay": false,
+      "elements_enable_external_payment_method_mb_way": false,
+      "elements_enable_external_payment_method_mercado_pago": false,
+      "elements_enable_external_payment_method_merpay": false,
+      "elements_enable_external_payment_method_momo": false,
+      "elements_enable_external_payment_method_mondu": false,
+      "elements_enable_external_payment_method_mybank": false,
+      "elements_enable_external_payment_method_netbanking": false,
+      "elements_enable_external_payment_method_nexi_pay": false,
+      "elements_enable_external_payment_method_oney": false,
+      "elements_enable_external_payment_method_online_banking_czech_republic": false,
+      "elements_enable_external_payment_method_online_banking_finland": false,
+      "elements_enable_external_payment_method_online_banking_poland": false,
+      "elements_enable_external_payment_method_online_banking_slovakia": false,
+      "elements_enable_external_payment_method_online_banking_thailand": false,
+      "elements_enable_external_payment_method_paidy": false,
+      "elements_enable_external_payment_method_pay_easy": false,
+      "elements_enable_external_payment_method_paybright": false,
+      "elements_enable_external_payment_method_payconiq": false,
+      "elements_enable_external_payment_method_paydirekt": false,
+      "elements_enable_external_payment_method_payit": false,
+      "elements_enable_external_payment_method_paypay": false,
+      "elements_enable_external_payment_method_paypo": false,
+      "elements_enable_external_payment_method_payrexx": false,
+      "elements_enable_external_payment_method_paysafecard": false,
+      "elements_enable_external_payment_method_paytm": false,
+      "elements_enable_external_payment_method_payu": false,
+      "elements_enable_external_payment_method_picpay": false,
+      "elements_enable_external_payment_method_pix_international": false,
+      "elements_enable_external_payment_method_planpay": false,
+      "elements_enable_external_payment_method_pledg": false,
+      "elements_enable_external_payment_method_poli": false,
+      "elements_enable_external_payment_method_postepay": false,
+      "elements_enable_external_payment_method_postfinance": false,
+      "elements_enable_external_payment_method_rabbitline_pay": false,
+      "elements_enable_external_payment_method_rakuten_pay": false,
+      "elements_enable_external_payment_method_ratepay": false,
+      "elements_enable_external_payment_method_samsung_pay": false,
+      "elements_enable_external_payment_method_satispay": false,
+      "elements_enable_external_payment_method_scalapay": false,
+      "elements_enable_external_payment_method_sequra": false,
+      "elements_enable_external_payment_method_sezzle": false,
+      "elements_enable_external_payment_method_skrill": false,
+      "elements_enable_external_payment_method_swish": false,
+      "elements_enable_external_payment_method_tabby": false,
+      "elements_enable_external_payment_method_titres_restaurant": false,
+      "elements_enable_external_payment_method_tng": false,
+      "elements_enable_external_payment_method_truelayer": false,
+      "elements_enable_external_payment_method_trustly": false,
+      "elements_enable_external_payment_method_twint": false,
+      "elements_enable_external_payment_method_v_pay": false,
+      "elements_enable_external_payment_method_venmo": false,
+      "elements_enable_external_payment_method_vipps": false,
+      "elements_enable_external_payment_method_wallets_india": false,
+      "elements_enable_external_payment_method_walley": false,
+      "elements_enable_external_payment_method_wechat_mobile": false,
+      "elements_enable_external_payment_method_younitedpay": false,
+      "elements_enable_invalid_country_for_pm_error": false,
+      "elements_enable_klarna_unified_offer": true,
+      "elements_enable_link_spm": true,
+      "elements_enable_mobilepay": false,
+      "elements_enable_mx_card_installments": false,
+      "elements_enable_outer_action_show_upe_wallet": false,
+      "elements_enable_passive_captcha": true,
+      "elements_enable_passive_hcaptcha_in_payment_method_creation": true,
+      "elements_enable_payment_element_postal_validation": true,
+      "elements_enable_read_allow_redisplay": true,
+      "elements_enable_save_for_future_payments_pre_check": false,
+      "elements_enable_save_last_used_payment_method": true,
+      "elements_enable_sepa_spm": false,
+      "elements_enable_south_korea_market_underlying_pms": false,
+      "elements_enable_use_last_used_payment_method": false,
+      "elements_enable_write_allow_redisplay": true,
+      "elements_luxe_qr_ui_on_web_enabled": false,
+      "elements_saved_payment_methods": false,
+      "elements_spm_max_visible_payment_methods": false,
+      "elements_spm_messages": false,
+      "elements_spm_set_as_default": false,
+      "elements_stop_move_focus_to_first_errored_field": true,
+      "elements_write_sfu_into_confirm_request": false,
+      "enable_paypal_confirmation_token": true,
+      "enable_spm_billing_details": false,
+      "enable_third_party_recurring_express_checkout_element": false,
+      "financial_connections_enable_deferred_intent_flow": true,
+      "legacy_confirmation_tokens": false,
+      "link_card_art_and_metadata": false,
+      "link_enable_card_brand_choice": true,
+      "link_payment_method_nicknames": true,
+      "link_popup_mobile_include_bank_accounts": true,
+      "link_purchase_protections_enabled": false,
+      "show_swish_redirect_and_qr_code_auth_flows": true,
+      "use_link_views": false
+    },
+    "google_pay_preference": "enabled",
+    "legacy_customer": null,
+    "link_purchase_protections_data": {
+      "is_eligible": false,
+      "type": null
+    },
+    "link_settings": {
+      "link_authenticated_change_event_enabled": false,
+      "link_bank_incentives_enabled": false,
+      "link_bank_onboarding_enabled": false,
+      "link_card_art_and_metadata": false,
+      "link_crypto_onramp_bank_upsell": false,
+      "link_crypto_onramp_elements_logout_disabled": false,
+      "link_crypto_onramp_force_cvc_reverification": false,
+      "link_default_opt_in": "OPTIONAL",
+      "link_disable_email_otp": false,
+      "link_disabled_reasons": {
+        "payment_element_passthrough_mode": [
+          "not_gated_into_enable_m2_passthrough_mode"
+        ],
+        "payment_element_payment_method_mode": [
+          "link_not_specified_in_payment_method_types"
+        ]
+      },
+      "link_elements_is_crypto_onramp": false,
+      "link_elements_pageload_sign_up_disabled": false,
+      "link_email_verification_login_enabled": false,
+      "link_enable_email_otp_for_link_popup": false,
+      "link_enable_instant_debits_in_testmode": false,
+      "link_enable_webauthn_for_link_popup": false,
+      "link_financial_incentives_experiment_enabled": false,
+      "link_funding_sources": [],
+      "link_funding_sources_onboarding_enabled": [],
+      "link_funding_sources_onboarding_unavailable_from_holdback": [],
+      "link_global_holdback_on": false,
+      "link_hcaptcha_rqdata": "AuSCXCyMBgrXEQl3qiLoUUGZoOYV5TDmQB8JjVN/B6YsQju9hpnBAx2/2KJvAK1xn2xViyYTartgPaSFgTEDdPhmOIBbc0AoPC4QBhhj7omLTZUiNWyAqaqWuc9HV8WiXI1YW3U2RRxhUIKYZsb/EzLWy7yfrrhML8533ERRUpR8pYLv6heqiuKDElLGGTRdiwwCuhSK2njk1cClnk217C/KFUTcIbj8Fliu9KfmsmkgLw==ct0UWB2OSEkN1tPV",
+      "link_hcaptcha_site_key": "24ed0064-62cf-4d42-9960-5dd1a41d4e29",
+      "link_local_storage_login_enabled": false,
+      "link_m2_default_integration_enabled": false,
+      "link_mode": null,
+      "link_no_code_default_values_dashboard_setting": false,
+      "link_no_code_default_values_identification": true,
+      "link_no_code_default_values_recall": true,
+      "link_no_code_default_values_usage": false,
+      "link_only_for_payment_method_types_enabled": false,
+      "link_passthrough_mode_enabled": false,
+      "link_pay_button_element_enabled": true,
+      "link_payment_element_disabled_by_targeting": false,
+      "link_payment_element_enable_webauthn_login": false,
+      "link_payment_method_nicknames": false,
+      "link_pm_killswitch_on_in_elements": false,
+      "link_popup_mobile_include_bank_accounts": false,
+      "link_popup_webview_option": "shared",
+      "link_session_storage_login_enabled": false,
+      "link_targeting_results": {
+        "payment_element_passthrough_mode": null
+      }
+    },
+    "lpm_promotions": null,
+    "merchant_country": "US",
+    "merchant_currency": "usd",
+    "merchant_id": "acct_16PRXgAd3k001mx3",
+    "merchant_logo_url": null,
+    "meta_pay_signed_container_context": null,
+    "order": null,
+    "ordered_payment_method_types_and_wallets": [
+      "card",
+      "apple_pay",
+      "klarna",
+      "afterpay_clearpay",
+      "cashapp",
+      "google_pay",
+      "affirm"
+    ],
+    "passive_captcha": {
+      "site_key": "463b917e-e264-403f-ad34-34af0ee10294"
+    },
+    "payment_method_preference": {
+      "object": "payment_method_preference",
+      "country_code": "PK",
+      "ordered_payment_method_types": [
+        "card",
+        "klarna",
+        "afterpay_clearpay",
+        "cashapp",
+        "affirm"
+      ],
+      "payment_intent": {
+        "id": "pi_3PVRgiAd3k001mx30bAxOhPR",
+        "object": "payment_intent",
+        "amount": 9378,
+        "amount_details": {
+          "tip": {}
+        },
+        "automatic_payment_methods": null,
+        "canceled_at": null,
+        "cancellation_reason": null,
+        "capture_method": "manual",
+        "client_secret": "pi_3PVRgiAd3k001mx30bAxOhPR_secret_mygY4ZcLKGUxkmu2IeNBEq0ry",
+        "confirmation_method": "automatic",
+        "created": 1719292384,
+        "currency": "usd",
+        "description": null,
+        "last_payment_error": null,
+        "livemode": true,
+        "next_action": null,
+        "payment_method": null,
+        "payment_method_configuration_details": null,
+        "payment_method_types": [
+          "card",
+          "cashapp",
+          "afterpay_clearpay",
+          "affirm",
+          "klarna"
+        ],
+        "processing": null,
+        "receipt_email": null,
+        "setup_future_usage": null,
+        "shipping": {
+          "address": {
+            "city": "Hobbs",
+            "country": "US",
+            "line1": "1401 North Turner Street",
+            "line2": null,
+            "postal_code": "88240",
+            "state": "NM"
+          },
+          "carrier": null,
+          "name": "Azaan Ayaz",
+          "phone": "(575) 393-0266",
+          "tracking_number": null
+        },
+        "source": null,
+        "status": "requires_payment_method"
+      },
+      "type": "payment_intent"
+    },
+    "payment_method_specs": [
+      {
+        "async": false,
+        "fields": [
+          {
+            "type": "affirm_header"
+          }
+        ],
+        "selector_icon": {
+          "light_theme_png": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-affirm@3x-d2623d995950761883fca048ce6e0550.png",
+          "light_theme_svg": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-affirm-cd0d27fdc6cb5ca18c77645c577c8b9b.svg"
+        },
+        "type": "affirm"
+      },
+      {
+        "async": false,
+        "fields": [
+          {
+            "type": "afterpay_header"
+          },
+          {
+            "api_path": {
+              "v1": "billing_details[name]"
+            },
+            "type": "name"
+          },
+          {
+            "api_path": {
+              "v1": "billing_details[email]"
+            },
+            "type": "email"
+          },
+          {
+            "for": "phone",
+            "type": "placeholder"
+          },
+          {
+            "allowed_country_codes": null,
+            "type": "billing_address"
+          }
+        ],
+        "selector_icon": {
+          "light_theme_png": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-afterpay@3x-6776ded2b20306c85d02639aea1e7dc5.png",
+          "light_theme_svg": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-afterpay-abedc6b87e4e9f917e22bbe6648ba809.svg"
+        },
+        "type": "afterpay_clearpay"
+      },
+      {
+        "async": false,
+        "fields": [],
+        "type": "card"
+      },
+      {
+        "async": false,
+        "fields": [],
+        "partner_product_link": "https://cash.app",
+        "selector_icon": {
+          "light_theme_png": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-cashapp@3x-a89c5d8d0651cae2a511bb49a6be1cfc.png",
+          "light_theme_svg": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-cashapp-981164a833e417d28a8ac2684fda2324.svg"
+        },
+        "type": "cashapp"
+      },
+      {
+        "async": false,
+        "fields": [
+          {
+            "type": "klarna_header"
+          },
+          {
+            "for": "name",
+            "type": "placeholder"
+          },
+          {
+            "api_path": {
+              "v1": "billing_details[email]"
+            },
+            "type": "email"
+          },
+          {
+            "for": "phone",
+            "type": "placeholder"
+          },
+          {
+            "api_path": {
+              "v1": "billing_details[address][country]"
+            },
+            "type": "klarna_country"
+          },
+          {
+            "for": "billing_address_without_country",
+            "type": "placeholder"
+          }
+        ],
+        "selector_icon": {
+          "light_theme_png": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-klarna@3x-d8624aa9a5662d719a44d16b9fcca0be.png",
+          "light_theme_svg": "https://js.stripe.com/v3/fingerprinted/img/payment-methods/icon-pm-klarna-bb91aa8f173a3c72931696b0f752ec73.svg"
+        },
+        "type": "klarna"
+      }
+    ],
+    "paypal_express_config": {
+      "client_id": null,
+      "paypal_merchant_id": null
+    },
+    "session_id": "elements_session_0CpuzMBGBT6",
+    "shipping_address_settings": {
+      "autocomplete_allowed": false
+    },
+    "unactivated_payment_method_types": [],
+    "unverified_payment_methods_on_domain": []
+  }
+
+  
+// Hypothetical Response
+  {
+    "shippingRates": [
+      {
+        "carrier": "Australia Post",
+        "service": "Standard",
+        "estimatedDeliveryTime": "3-5 business days",
+        "rate": {
+          "amount": "15.00",
+          "currency": "AUD"
+        }
+      },
+      {
+        "carrier": "Australia Post",
+        "service": "Express",
+        "estimatedDeliveryTime": "1-2 business days",
+        "rate": {
+          "amount": "25.00",
+          "currency": "AUD"
+        }
+      }
+    ]
+  }
+  
+
+
+  

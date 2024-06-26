@@ -1,0 +1,4024 @@
+{
+    checkoutStore: {
+      submitError: null,
+      cart: {
+        taxes: null,
+        taxTotal: 0,
+        taxIncludedTotal: 0,
+        subTotal: 2125,
+        shipping: {
+          name: 'Hassan Ahmed',
+          firstName: 'Hassan',
+          lastName: 'Ahmed',
+          address1: 'Block 9 clifton karachi',
+          address2: null,
+          city: 'Karachi',
+          state: 'SD',
+          zip: '65200',
+          country: 'PK',
+          phone: '+923133143434',
+          selectedDeliveries: [
+            {
+              deliveryId: 0,
+              name: 'Standard Shipping',
+              currency: 'GBP',
+              price: 0,
+              conversionRate: 0,
+              deliveryTime: '2024-06-25T09:43:14+00:00',
+              carrierServiceId: 'standard_shipping_custom',
+              etaDate: '2024-06-25T09:43:14+00:00',
+              vendorId: '0',
+              productIds: ''
+            }
+          ],
+          price: 0,
+          service: 'standard_shipping_custom',
+          serviceName: 'standard_shipping_custom'
+        },
+        shipmentTotal: 0,
+        shipmentRating: {
+          dateCreated: '2024-06-25T09:43:31.733Z',
+          fingerprint: '2c297e6b432307624674410de72891ff',
+          services: [
+            {
+              id: 'standard_shipping_custom',
+              requestId: '667a91446b901',
+              name: 'standard_shipping_custom',
+              price: 0,
+              deliveries: [
+                {
+                  id: 0,
+                  isSplitDelivery: false,
+                  hasAtl: false,
+                  minPrice: 0,
+                  maxPrice: 0,
+                  totalPrice: 0,
+                  currency: 'GBP',
+                  locality: 'AU',
+                  message: '',
+                  totalDays: 0,
+                  minDeliveryDate: '2024-06-25T09:43:32+00:00',
+                  maxDeliveryDate: '2024-06-25T09:43:32+00:00',
+                  variants: [
+                    {
+                      id: '64699d3d6000a0001265ff9c',
+                      productId: '64699d3d6000a0001265ff9c',
+                      variantId: '64699fd61bedc2001331a88e',
+                      productName: 'Compressa',
+                      shipmentWeight: 34000,
+                      sku: ''
+                    }
+                  ],
+                  services: [
+                    {
+                      name: 'Standard Shipping',
+                      currency: 'GBP',
+                      price: 0,
+                      conversionRate: 0,
+                      deliveryTime: '2024-06-25T09:43:32+00:00',
+                      carrierServiceId: 'standard_shipping_custom',
+                      etaDate: '2024-06-25T09:43:32+00:00',
+                      vendorId: '0',
+                      productIds: ''
+                    }
+                  ]
+                }
+              ],
+              generatedAt: '2024-06-25T09:43:32+00:00'
+            },
+            {
+              id: 'standard',
+              name: 'Standard Shipping',
+              price: 5,
+              description: 'Standard shipping service'
+            },
+            {
+              id: 'express',
+              name: 'Express Shipping',
+              price: 15,
+              description: 'Express shipping service'
+            }
+          ]
+        },
+        shipmentPrice: 0,
+        shipmentDiscount: 0,
+        shipmentDelivery: true,
+        recovered: true,
+        promotionIds: [],
+        metadata: {
+          step: 3
+        },
+        items: [
+          {
+            variantId: '64699fd61bedc2001331a88e',
+            taxTotal: 0,
+            taxEach: 0,
+            shipmentWeight: 34000,
+            quantity: 1,
+            purchaseOption: {
+              type: 'standard',
+              price: 1983.33
+            },
+            productId: '64699d3d6000a0001265ff9c',
+            priceTotal: 2125,
+            price: 2125,
+            origPrice: 2125,
+            options: [
+              {
+                id: '64699c54314f7c7bc5c06ea9',
+                value: '120V, 1400W, USA plug',
+                name: 'Power & Plug',
+                variant: true,
+                valueId: '64699d3d314f7c7bc5c06ead',
+                price: 141.67
+              },
+              {
+                id: '64699c82314f7c7bc5c06eaa',
+                value: 'Right',
+                name: 'Steam Arm Side',
+                variant: true,
+                valueId: '64699d3d314f7c7bc5c06eb1'
+              },
+              {
+                id: '64699c8c314f7c7bc5c06eab',
+                value: 'Bottomless',
+                name: 'Inclusion: Wenge Portafilter #1',
+                variant: true,
+                valueId: '64699d3d314f7c7bc5c06eb3'
+              },
+              {
+                id: '64699fc1314f7c7bc5c06eb5',
+                value: 'No',
+                name: 'Pre-pay Duty & Taxes',
+                variant: true,
+                valueId: '64699fd3314f7c7bc5c06eb7'
+              }
+            ],
+            id: '667a688abfbf81001249501b',
+            discountTotal: 0,
+            discountEach: 0,
+            product: {
+              stockTracking: false,
+              stockPurchasable: false,
+              stockLevel: -4,
+              slug: 'compressa',
+              sku: 'COMPRESSA',
+              sale: false,
+              price: 1983.33,
+              options: [
+                {
+                  id: '64699c54314f7c7bc5c06ea9',
+                  values: [
+                    {
+                      id: '64699d3d314f7c7bc5c06ead',
+                      name: '120V, 1400W, USA plug',
+                      price: 141.67,
+                      shipmentWeight: null,
+                      description: null
+                    },
+                    {
+                      id: '64699d3d314f7c7bc5c06eae',
+                      name: '240V, 2400W, UK plug'
+                    },
+                    {
+                      id: '64699d3d314f7c7bc5c06eaf',
+                      name: '240V, 2400W, EU plug'
+                    },
+                    {
+                      id: '64699d3d314f7c7bc5c06eb0',
+                      name: '240V, 2400W, ANZAC plug'
+                    }
+                  ],
+                  name: 'Power & Plug',
+                  active: true,
+                  inputType: 'select',
+                  variant: true,
+                  description: null,
+                  required: true,
+                  attributeId: 'power_plug'
+                },
+                {
+                  id: '64699c82314f7c7bc5c06eaa',
+                  name: 'Steam Arm Side',
+                  values: [
+                    {
+                      id: '64699d3d314f7c7bc5c06eb1',
+                      name: 'Right'
+                    },
+                    {
+                      id: '64699d3d314f7c7bc5c06eb2',
+                      name: 'Left'
+                    }
+                  ],
+                  variant: true,
+                  inputType: 'select',
+                  required: true,
+                  active: true,
+                  attributeId: 'steam_arm_side'
+                },
+                {
+                  id: '64699c8c314f7c7bc5c06eab',
+                  name: 'Inclusion: Wenge Portafilter #1',
+                  values: [
+                    {
+                      id: '64699d3d314f7c7bc5c06eb3',
+                      name: 'Bottomless'
+                    }
+                  ],
+                  variant: true,
+                  inputType: 'select',
+                  required: true,
+                  active: true,
+                  attributeId: 'inclusion_wenge_portafilter_1'
+                },
+                {
+                  id: '64699fc1314f7c7bc5c06eb5',
+                  values: [
+                    {
+                      name: 'No',
+                      id: '64699fd3314f7c7bc5c06eb7'
+                    },
+                    {
+                      name: 'Yes',
+                      id: '6469a636abed6c2456ffe992',
+                      price: 100,
+                      shipmentWeight: null,
+                      description: null
+                    }
+                  ],
+                  name: 'Pre-pay Duty & Taxes',
+                  active: true,
+                  inputType: 'select',
+                  variant: true,
+                  description: null,
+                  required: true,
+                  attributeId: 'pre_pay_duty_taxes'
+                }
+              ],
+              name: 'Compressa',
+              images: [
+                {
+                  file: {
+                    id: '64699d303c42c400128c8b2b',
+                    dateUploaded: '2023-05-21T04:25:20.512Z',
+                    length: 190492,
+                    md5: '5cb112a299aa020fff893e0ac0270c44',
+                    filename: null,
+                    url: 'https://cdn.swell.store/londinium/64699d303c42c400128c8b2b/5cb112a299aa020fff893e0ac0270c44',
+                    width: 1200,
+                    height: 1200
+                  },
+                  id: '64699d3d6000a0001265ff9d'
+                }
+              ],
+              description: 'We took the LONDINIUM R24 with its full sized commercial 58mm group and removed the pump, the reservoir, the digital pre-infusion, and the wireless control. The Compressa must be plumbed to a mains water connection and typically a drain for the drip tray. The Compressa is designed for the needs of the home based worker who needs access to a stream of high quality espresso, and people in the many places where high quality espresso simply doesn&#39;t exist. The Compressa can be left on all day. If you pull consecutive shots it maintains thermal stability. If you leave it idling for an extended period of time it will maintain the correct temperature for the next shot to be pulled without the need to flush the group to raise the group temperature before the shot is pulled. The Compressa brings you the ability to self service your machine with our support, which is a significant benefit unless you have an espresso machine technician nearby. All parts we will get to you anywhere in the world in ONE week with DHL Express.',
+              content: {
+                productHighlights: [],
+                expandableDetails: [],
+                vatText: null
+              },
+              attributes: {
+                powerPlug: [
+                  '120V, 1400W, USA plug',
+                  '240V, 2400W, UK plug',
+                  '240V, 2400W, EU plug',
+                  '240V, 2400W, ANZAC plug'
+                ],
+                steamArmSide: [
+                  'Right',
+                  'Left'
+                ],
+                inclusionWengePortafilter1: [
+                  'Bottomless'
+                ],
+                prePayDutyTaxes: [
+                  'Yes',
+                  'No'
+                ]
+              },
+              id: '64699d3d6000a0001265ff9c'
+            },
+            variant: {
+              stockLevel: -1,
+              sku: null,
+              name: '120V, 1400W, USA plug, Right, Bottomless, No',
+              id: '64699fd61bedc2001331a88e'
+            }
+          }
+        ],
+        itemTax: 0,
+        itemShipmentWeight: 34000,
+        itemQuantity: 1,
+        itemDiscount: 0,
+        guest: false,
+        grandTotal: 2125,
+        giftcardTotal: 0,
+        displayLocale: 'en-AU',
+        displayCurrency: null,
+        discounts: null,
+        discountTotal: 0,
+        dateCreated: '2024-06-25T06:49:46.734Z',
+        dateAbandoned: '2024-06-25T12:43:31.705Z',
+        currency: 'GBP',
+        comments: null,
+        checkoutUrl: 'https://londinium-checkout.vercel.app/58a60539c3113bb1daef101d07c5854f',
+        checkoutId: '58a60539c3113bb1daef101d07c5854f',
+        captureTotal: 2125,
+        billing: {
+          method: 'cash',
+          zip: '1719299164758-7782'
+        },
+        authTotal: 0,
+        accountLoggedIn: true,
+        accountId: '64b1529ca4375c0012044734',
+        id: '667a688a4a9df60012b360ee',
+        coupon: null,
+        promotions: {
+          count: 0,
+          pageCount: 1,
+          page: 1,
+          results: []
+        },
+        account: {
+          type: 'individual',
+          shipping: {
+            accountAddressId: '64b155e9bd39b20012fb6446',
+            name: 'Hassan Ahmed',
+            firstName: 'Hassan',
+            lastName: 'Ahmed',
+            address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+            address2: null,
+            city: 'Victoria',
+            state: '09',
+            zip: '3074',
+            country: 'AU',
+            phone: '+923133143434',
+            company: null
+          },
+          phone: null,
+          orderValue: 1819306.82,
+          orderCount: 546,
+          name: 'Hassan Ahmed',
+          metadata: {
+            verifiedPhone: [
+              '+923133143434'
+            ]
+          },
+          lastName: 'Ahmed',
+          firstName: 'Hassan',
+          emailOptin: true,
+          email: 'hassan@devkind.com.au',
+          dateLastOrder: '2024-06-13T11:50:31.341Z',
+          dateFirstOrder: '2023-07-14T14:04:27.411Z',
+          dateCreated: '2023-07-14T13:50:20.795Z',
+          billing: {
+            name: 'Hassan Ahmed',
+            firstName: 'Hassan',
+            lastName: 'Ahmed',
+            address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+            address2: null,
+            city: 'Victoria',
+            state: 'VIC',
+            zip: '3074',
+            country: 'AU',
+            phone: '+923133143434'
+          },
+          balance: 0,
+          id: '64b1529ca4375c0012044734',
+          addresses: {
+            count: 15,
+            pageCount: 2,
+            page: 1,
+            results: [
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'Hassan Ahmed',
+                firstName: 'Hassan',
+                lastName: 'Ahmed',
+                address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+                address2: null,
+                city: 'Victoria',
+                state: '09',
+                zip: '3074',
+                country: 'AU',
+                phone: '+923133143434',
+                fingerprint: 'eb211060696df3f6e02d3df610ca12d9',
+                dateCreated: '2023-07-14T14:04:25.526Z',
+                active: true,
+                dateUpdated: '2024-06-13T11:50:30.524Z',
+                checkoutAddress: 'selected:1',
+                company: null,
+                email: null,
+                password: null,
+                id: '64b155e9bd39b20012fb6446'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'Aasmaa Shaikh',
+                address1: '1 Cheeseman Ave Brighton East',
+                address2: null,
+                city: 'Thomastown',
+                state: 'VIC',
+                zip: '3074',
+                country: 'AU',
+                phone: '+61404749997',
+                active: true,
+                firstName: 'Aasmaa',
+                lastName: 'Shaikh',
+                fingerprint: '1344b562649ed9118551126d9a735fe6',
+                dateCreated: '2023-08-21T05:38:15.632Z',
+                dateUpdated: '2024-06-13T10:57:49.911Z',
+                company: null,
+                id: '64e2f8475a54da00128cf33e'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'Ibad Bhutto',
+                firstName: 'Ibad',
+                lastName: 'Bhutto',
+                address1: '24 minchunbury',
+                address2: null,
+                city: 'Melbourne',
+                state: 'VIC',
+                zip: '3133',
+                country: 'AU',
+                phone: '+61435525519',
+                fingerprint: '5c81fd9b1f733b4c9b247aa92f3f8484',
+                dateCreated: '2023-09-06T12:19:09.215Z',
+                active: true,
+                dateUpdated: '2024-06-13T09:13:59.140Z',
+                company: null,
+                id: '64f86e3db9a5f800119f4b7c'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'HAssan Ahmed',
+                address1: 'dkbcksffgvb5',
+                address2: 'eqwfouhweiuf',
+                city: 'sukkur',
+                state: 'NSW',
+                zip: '65200',
+                country: 'AU',
+                phone: '+923133143434',
+                active: true,
+                firstName: 'HAssan',
+                lastName: 'Ahmed',
+                fingerprint: 'fab9470533537c9ae127e83f3f81975f',
+                dateCreated: '2023-12-18T11:01:42.257Z',
+                company: null,
+                dateUpdated: '2024-06-10T05:32:50.221Z',
+                id: '65802696e819f80012376c91'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'John Doe',
+                firstName: 'John',
+                lastName: 'Doe',
+                address1: '1 Cheeseman Ave Brighton East',
+                address2: null,
+                city: 'Melbourne',
+                state: 'Victoria',
+                zip: '3001',
+                country: 'AU',
+                phone: '+923133143434',
+                company: null,
+                fingerprint: 'd9846223ceb2aa9c45c5db8d39437d83',
+                dateCreated: '2023-09-04T19:52:43.448Z',
+                active: true,
+                dateUpdated: '2024-06-10T04:39:35.387Z',
+                id: '64f6358b0f36920012e2d922'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'qwdwqsd qwdqwd',
+                address1: 'c-32/034 military quarters near',
+                address2: 'Red Creascent hospital minrara road sukkur',
+                city: 'sukkur',
+                state: 'BDF',
+                zip: '65200',
+                country: 'GB',
+                phone: '+923133143434',
+                active: true,
+                firstName: 'qwdwqsd',
+                lastName: 'qwdqwd',
+                fingerprint: 'c01fc15f9d1649be1c514be5d3aeda15',
+                dateCreated: '2023-12-18T12:10:22.319Z',
+                dateUpdated: '2024-05-30T03:00:53.273Z',
+                id: '658036ae79b26e0012958b07'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'HAssan Ahmed',
+                address1: 'Qasim park ',
+                address2: null,
+                city: 'sukkur',
+                state: 'JK',
+                zip: '65200',
+                country: 'PK',
+                phone: '+923133143434',
+                active: true,
+                firstName: 'HAssan',
+                lastName: 'Ahmed',
+                fingerprint: '831aaf8908804fa72bb8d483c55d89c2',
+                dateCreated: '2023-12-18T04:03:14.892Z',
+                company: null,
+                dateUpdated: '2024-05-07T04:28:03.120Z',
+                id: '657fc482e6ffdc0011cf36c8'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'Saad Ullah2',
+                firstName: 'Saad',
+                lastName: 'Ullah2',
+                address1: '24 Browning RD',
+                address2: null,
+                city: 'Boronia',
+                state: 'VIC',
+                zip: '3155',
+                country: 'AU',
+                phone: '+61435525519',
+                fingerprint: '754c2ee54dbf7b70ef9ded036d4985f5',
+                dateCreated: '2023-12-20T04:51:33.216Z',
+                active: true,
+                company: null,
+                dateUpdated: '2024-05-01T12:29:35.385Z',
+                id: '658272d5dc00640011f4e28c'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'Hassan Ahmed',
+                address1: 'Block 9 clifton karachi',
+                address2: null,
+                city: 'Karachi',
+                state: 'SD',
+                zip: '65200',
+                country: 'PK',
+                phone: '+923133143434',
+                active: true,
+                firstName: 'Hassan',
+                lastName: 'Ahmed',
+                fingerprint: 'f60ccbddce35bcd66e729010c9fefd02',
+                dateCreated: '2023-09-14T13:03:11.647Z',
+                dateUpdated: '2024-04-16T17:01:08.227Z',
+                company: null,
+                checkoutAddress: 'selected:0',
+                email: null,
+                hasTaxNumber: false,
+                password: null,
+                taxNumber: null,
+                id: '6503048f4aa55a001344f2c2'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                name: 'Hassan Ahmed',
+                address1: '78 Academy St',
+                address2: null,
+                city: 'Inverness',
+                state: 'HLD',
+                zip: 'IV1 1LU',
+                country: 'GB',
+                phone: '+441463226688',
+                active: true,
+                firstName: 'Hassan',
+                lastName: 'Ahmed',
+                fingerprint: '56d70813db6ef0429a2b755b82820d6b',
+                dateCreated: '2023-09-25T08:29:15.618Z',
+                dateUpdated: '2024-01-16T03:29:54.184Z',
+                company: null,
+                id: '651144db01e0070011833ed2'
+              }
+            ],
+            pages: {
+              '1': {
+                start: 1,
+                end: 10
+              },
+              '2': {
+                start: 11,
+                end: 15
+              }
+            }
+          },
+          cards: {
+            count: 7,
+            pageCount: 1,
+            page: 1,
+            results: [
+              {
+                parentId: '64b1529ca4375c0012044734',
+                billing: {
+                  name: 'John Doe',
+                  firstName: 'John',
+                  lastName: 'Doe',
+                  address1: '1 Cheeseman Ave Brighton East',
+                  address2: null,
+                  city: 'Melbourne',
+                  state: 'Victoria',
+                  zip: '3001',
+                  country: 'AU',
+                  phone: '+923133143434',
+                  company: null
+                },
+                brand: 'mastercard',
+                last4: '3222',
+                expMonth: 11,
+                expYear: 2025,
+                token: 'pm_1NmbpmDzRzhkSC0YphjhyQV2',
+                addressCheck: 'pass',
+                zipCheck: 'pass',
+                cvcCheck: 'pass',
+                fingerprint: 'e271f0e2cb35153aeea2d884299503c9',
+                dateCreated: '2023-09-04T12:25:08.320Z',
+                active: true,
+                dateUpdated: '2024-05-08T09:04:23.481Z',
+                id: '64f5cca4eccff30011d8b0e2'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                billing: {
+                  name: 'Ibad Bhutto',
+                  firstName: 'Ibad',
+                  lastName: 'Bhutto',
+                  address1: '24 minchunbury',
+                  address2: null,
+                  city: 'Melbourne',
+                  state: 'VIC',
+                  zip: '3133',
+                  country: 'AU',
+                  phone: '+61435525519',
+                  company: null
+                },
+                brand: 'visa',
+                last4: '4242',
+                expMonth: 11,
+                expYear: 2029,
+                token: 'pm_1ON8kuDzRzhkSC0YUIh18mpz',
+                addressCheck: 'pass',
+                zipCheck: 'pass',
+                cvcCheck: 'pass',
+                fingerprint: 'a3f88a45c7898d290748cc384d7e2ace',
+                dateCreated: '2023-08-01T06:10:47.612Z',
+                active: true,
+                dateUpdated: '2024-05-07T04:24:00.553Z',
+                id: '64c8a1e79044310012f44ce1'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                billing: {
+                  name: 'Ibad Bhutto',
+                  firstName: 'Ibad',
+                  lastName: 'Bhutto',
+                  address1: '24 minchunbury',
+                  address2: null,
+                  city: 'Melbourne',
+                  state: 'VIC',
+                  zip: '3133',
+                  country: 'AU',
+                  phone: '+61435525519',
+                  company: null
+                },
+                brand: 'visa',
+                last4: '5556',
+                expMonth: 11,
+                expYear: 2026,
+                token: 'pm_1NmZl1DzRzhkSC0YzFfvHVl1',
+                addressCheck: 'pass',
+                zipCheck: 'pass',
+                cvcCheck: 'pass',
+                fingerprint: '4fc53d6b08d9d4b3bfece4f38f51ebe3',
+                dateCreated: '2023-09-04T10:12:15.174Z',
+                active: true,
+                dateUpdated: '2024-01-16T05:53:38.474Z',
+                id: '64f5ad7fa85ff50012c55a85'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                billing: {
+                  name: 'John Doe',
+                  firstName: 'John',
+                  lastName: 'Doe',
+                  address1: '1 Cheeseman Ave Brighton East',
+                  address2: null,
+                  city: 'Melbourne',
+                  state: 'Victoria',
+                  zip: '3001',
+                  country: 'AU',
+                  phone: '+923133143434',
+                  company: null
+                },
+                brand: 'amex',
+                last4: '0005',
+                expMonth: 11,
+                expYear: 2029,
+                token: 'pm_1NmbBZDzRzhkSC0YXqpNfEnn',
+                addressCheck: 'pass',
+                zipCheck: 'pass',
+                cvcCheck: 'pass',
+                fingerprint: 'aca5dc6a32631e0fd5ad1670f616b6c1',
+                dateCreated: '2023-09-04T11:43:27.281Z',
+                active: true,
+                dateUpdated: '2023-12-21T11:23:20.352Z',
+                id: '64f5c2df2bc9320012894eca'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                billing: {
+                  name: 'Ibad Bhutto',
+                  firstName: 'Ibad',
+                  lastName: 'Bhutto',
+                  address1: '24 minchunbury',
+                  address2: null,
+                  city: 'Melbourne',
+                  state: 'VIC',
+                  zip: '3133',
+                  country: 'AU',
+                  phone: '+61435525519',
+                  company: null
+                },
+                brand: 'mastercard',
+                last4: '4444',
+                expMonth: 11,
+                expYear: 2026,
+                token: 'pm_1Nmip1DzRzhkSC0Y7sgiP05N',
+                addressCheck: 'pass',
+                zipCheck: 'pass',
+                cvcCheck: 'pass',
+                fingerprint: '271a16f49ca20560ecc5664113e3b02c',
+                dateCreated: '2023-09-04T10:14:24.201Z',
+                active: true,
+                dateUpdated: '2023-12-20T09:57:17.858Z',
+                id: '64f5ae00ad32ab001283f1ae'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                billing: {
+                  name: 'Ibad Bhutto',
+                  firstName: 'Ibad',
+                  lastName: 'Bhutto',
+                  address1: '24 minchunbury',
+                  address2: null,
+                  city: 'Melbourne',
+                  state: 'VIC',
+                  zip: '3133',
+                  country: 'AU',
+                  phone: '+61435525519',
+                  company: null
+                },
+                brand: 'mastercard',
+                last4: '8210',
+                expMonth: 11,
+                expYear: 2025,
+                token: 'pm_1NmbFRDzRzhkSC0YIwBRX4LC',
+                addressCheck: 'pass',
+                zipCheck: 'pass',
+                cvcCheck: 'pass',
+                fingerprint: '5da55dcaad7aed340671a44885c077b2',
+                dateCreated: '2023-09-04T11:47:27.091Z',
+                active: true,
+                dateUpdated: '2023-12-20T09:45:03.259Z',
+                id: '64f5c3cff791570012fd7add'
+              },
+              {
+                parentId: '64b1529ca4375c0012044734',
+                billing: {
+                  name: 'Saad Ullah2',
+                  firstName: 'Saad',
+                  lastName: 'Ullah2',
+                  address1: '24 Browning RD',
+                  address2: null,
+                  city: 'Boronia',
+                  state: 'VIC',
+                  zip: '3155',
+                  country: 'AU',
+                  phone: '+61435525519',
+                  company: null
+                },
+                brand: 'mastercard',
+                last4: '5100',
+                expMonth: 11,
+                expYear: 2029,
+                token: 'pm_1NmbbLDzRzhkSC0YDy3ei1wH',
+                addressCheck: 'pass',
+                zipCheck: 'pass',
+                cvcCheck: 'pass',
+                fingerprint: '4e0e215006a2b78a9fba571afd0181e3',
+                dateCreated: '2023-09-04T11:56:03.250Z',
+                active: true,
+                dateUpdated: '2023-12-20T07:40:58.680Z',
+                id: '64f5c5d32bc9320012894fa1'
+              }
+            ]
+          }
+        }
+      },
+      settings: {
+        id: 'londinium',
+        name: 'Londinium',
+        locale: 'en-AU',
+        currency: 'GBP',
+        supportEmail: 'ali@devkind.com.au',
+        country: null,
+        fields: {
+          name: 'last',
+          company: 'optional',
+          phone: 'optional',
+          address2: 'optional',
+          note: 'hidden',
+          comments: 'optional'
+        },
+        scripts: null,
+        headScripts: null,
+        accounts: 'optional',
+        emailOptin: 'agree',
+        termsPolicy: '<p>This is terms of service</p>',
+        refundPolicy: '<p>This is refund policy</p>\n<b> testing </b>',
+        privacyPolicy: '<p>This is prviacy policy</p>',
+        theme: {},
+        storeUrl: 'https://londinium-sf-origin.vercel.app/',
+        customUrl: 'https://londinium-sf-origin.vercel.app/',
+        countries: [],
+        taxes: {
+          features: {
+            autoCalc: false
+          },
+          nexusZipcodes: [],
+          locationSource: 'shipping',
+          calculationSource: 'total',
+          productPriceIncludesTax: false,
+          shippingPriceIncludesTax: false,
+          applyTaxIncludingDiscount: false,
+          applyDiscountIncludingTax: false,
+          accountClasses: [
+            {
+              id: 'standard',
+              name: 'Standard'
+            }
+          ],
+          productClasses: [
+            {
+              id: 'standard',
+              name: 'Standard'
+            },
+            {
+              id: 'digital',
+              name: 'Digital'
+            }
+          ],
+          rules: [
+            {
+              id: 'generic_tax_rules',
+              name: 'Generic Tax Rules',
+              priority: null,
+              origin: null,
+              categories: [],
+              shipping: true,
+              productClasses: [],
+              accountClasses: [],
+              rates: [
+                {
+                  name: 'GST',
+                  country: 'AU',
+                  rate: 10,
+                  state: null,
+                  zip: null
+                }
+              ]
+            },
+            {
+              id: 'tax_rule',
+              name: 'Tax Rule',
+              priority: null,
+              origin: null,
+              categories: [],
+              shipping: true,
+              productClasses: [],
+              accountClasses: [],
+              rates: [
+                {
+                  name: 'VAT',
+                  country: 'GB',
+                  rate: 20,
+                  state: null,
+                  zip: null
+                }
+              ]
+            }
+          ],
+          dateCreated: '2023-06-24T13:08:27.779Z',
+          dateUpdated: '2023-10-11T09:48:05.917Z',
+          id: 'taxes'
+        },
+        paymentMethods: [
+          {
+            id: 'card',
+            name: 'Credit card',
+            mode: 'test',
+            gateway: 'stripe',
+            redirect: false,
+            publishableKey: 'pk_test_51G2zPRDzRzhkSC0YNtOR9V9qHl02uZIkRKQswbmaEqJLdKuryDbxkOgFBrrIjJPzgUjL0AOlDyPGsah3sWFBjqXK00NY8pQ3LV'
+          },
+          {
+            id: 'paypal',
+            name: 'PayPal Commerce Platform',
+            mode: 'test',
+            clientId: 'AZJb4rrlZ2zLWcuXXC8Y5-8dit76Q2kir5oO6P_nBasfN6teR3ajkosPnEb_KhgrPixIXh-eQo-EtVf_',
+            merchantId: 'PEWRDAHXZNKBL',
+            storeOwnerEmail: 'ali@devkind.com.au',
+            ppcp: false
+          },
+          {
+            id: 'giftcard',
+            name: 'Gift card'
+          },
+          {
+            id: 'cash',
+            name: 'Cash',
+            description: 'test',
+            instructions: null,
+            manual: true,
+            active: true
+          },
+          {
+            id: 'transferwise',
+            name: 'Transferwise',
+            description: 'Pay with Transferwise to save  ',
+            instructions: '{{bank_details}}',
+            manual: true,
+            active: true
+          }
+        ],
+        coupons: true,
+        giftcards: true,
+        locales: [],
+        currencies: [
+          {
+            code: 'GBP',
+            rate: 1,
+            name: 'British Pound Sterling',
+            symbol: '£',
+            decimals: 2,
+            priced: true,
+            type: 'base'
+          },
+          {
+            code: 'USD',
+            rate: 1.26823,
+            name: 'US Dollar',
+            symbol: '$',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'AUD',
+            rate: 1.90583,
+            name: 'Australian Dollar',
+            symbol: '$',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'CAD',
+            rate: 1.73217,
+            name: 'Canadian Dollar',
+            symbol: '$',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'INR',
+            rate: 105.84699,
+            name: 'Indian Rupee',
+            symbol: '₹',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'DKK',
+            rate: 8.81445,
+            name: 'Danish Krone',
+            symbol: 'kr',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'CZK',
+            rate: 29.40199,
+            name: 'Czech Republic Koruna',
+            symbol: 'Kč',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'EUR',
+            rate: 1.18167,
+            name: 'Euro',
+            symbol: '€',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'HKD',
+            rate: 9.90237,
+            name: 'Hong Kong Dollar',
+            symbol: '$',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'HUF',
+            rate: 466.93109,
+            name: 'Hungarian Forint',
+            symbol: 'Ft',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'ILS',
+            rate: 4.72269,
+            name: 'Israeli New Sheqel',
+            symbol: '₪',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'MXN',
+            rate: 22.76748,
+            name: 'Mexican Peso',
+            symbol: '$',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'NZD',
+            rate: 2.07227,
+            name: 'New Zealand Dollar',
+            symbol: '$',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'NOK',
+            rate: 13.36653,
+            name: 'Norwegian Krone',
+            symbol: 'kr',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'PHP',
+            rate: 74.55267,
+            name: 'Philippine Peso',
+            symbol: '₱',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'PLN',
+            rate: 5.07266,
+            name: 'Polish Zloty',
+            symbol: 'zł',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'RON',
+            rate: 5.88128,
+            name: 'Romanian Leu',
+            symbol: 'lei',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'SGD',
+            rate: 1.71574,
+            name: 'Singapore Dollar',
+            symbol: 'S$',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'ZAR',
+            rate: 22.9642,
+            name: 'South African Rand',
+            symbol: 'R',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'SEK',
+            rate: 13.28607,
+            name: 'Swedish Krona',
+            symbol: 'kr',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          },
+          {
+            code: 'CHF',
+            rate: 1.13283,
+            name: 'Swiss Franc',
+            symbol: 'CHF',
+            decimals: 2,
+            priced: true,
+            type: 'priced'
+          }
+        ],
+        publicKey: 'pk_Bbz1nYDoxuLYblv3Fw4HTmTRVHR9knGQ',
+        requireAuthorizedPayment: true,
+        autoOrderPayment: true
+      },
+      step: 3,
+      isBlur: false,
+      isLoading: false,
+      error: '',
+      isCheckoutBlocked: false,
+      checkoutSettings: {
+        currencies: [
+          {
+            id: 5,
+            code: 'USD',
+            bank_account_details: [
+              {
+                id: 1,
+                body: '**BENEFICIARY:** Ridgeland Associates Limited',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 2,
+                type: 'border',
+                title: 'INSIDE USA',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 3,
+                body: '026073150',
+                type: 'USA_ROUTING_INSIDE',
+                title: 'Routing Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: '8310177836',
+                type: 'USE_ACCOUNT_INSIDE',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: 'Checking',
+                type: 'USA_ACCOUNT_TYPE',
+                title: 'Account Type',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                type: 'border',
+                title: 'OUTSIDE USA',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 7,
+                body: 'CMFGUS33',
+                type: 'USA_SWIFT',
+                title: 'Bank Code (SWIFT/BIC)',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: '8310177836',
+                type: 'USA_ACCOUNT_OUTSIDE',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 9,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 10,
+                body: '**TransferWise**\n\n30 W. 26th Street, Sixth Floor\n\nNew York\n\n10010\n\nUnited States',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-12T14:01:08.000000Z',
+            updated_at: '2024-06-20T11:25:32.000000Z',
+            rate: 1.27205,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'usd',
+              code_alphabetic: 'usd',
+              code_numeric: 840,
+              decimal_digits: 2,
+              name: 'US Dollar',
+              name_plural: 'US dollars',
+              rounding: 0,
+              symbol: '$',
+              symbol_native: '$'
+            }
+          },
+          {
+            id: 7,
+            code: 'GBP',
+            bank_account_details: [
+              {
+                id: 1,
+                body: '**BENEFICIARY:** Ridgeland Associates Limited',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 2,
+                type: 'border',
+                title: 'INSIDE UNITED KINGDOM',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 3,
+                body: '23-14-70',
+                type: 'UK_SORT',
+                title: 'UK Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: '99690539',
+                type: 'UK_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: 'GB03 TRWI 2314 7099 6905 39',
+                type: 'UK_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: '(to receive GBP from UK only)',
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                type: 'border',
+                title: 'OUTSIDE UNITED KINGDOM',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 7,
+                body: 'TRWIGB2L',
+                type: 'UK_SWIFT',
+                title: 'SWIFT/BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'GB03 TRWI 2314 7099 6905 39',
+                type: 'UK_IBAN_OUT',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 9,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 10,
+                body: '**TransferWise**\\\n56 Shoreditch High Street\\\nLondon\\\nE1 6JJ\\\nUnited Kingdom',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-12T14:01:09.000000Z',
+            updated_at: '2024-06-05T09:41:14.000000Z',
+            rate: 1,
+            decimals: 2,
+            type: 'base',
+            data: {
+              id: 'gbp',
+              code_alphabetic: 'gbp',
+              code_numeric: 826,
+              decimal_digits: 2,
+              name: 'British Pound Sterling',
+              name_plural: 'British pounds sterling',
+              rounding: 0,
+              symbol: '£',
+              symbol_native: '£'
+            }
+          },
+          {
+            id: 8,
+            code: 'CAD',
+            bank_account_details: [
+              {
+                id: 2,
+                type: 'border',
+                title: 'Account Holder',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 1,
+                body: 'Ridgeland Associates Limited',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                type: 'border',
+                title: 'Bank Details',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 4,
+                body: '621',
+                type: 'CAD_INST',
+                title: 'Institution Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '200110037503',
+                type: 'CAD_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '16001',
+                type: 'CAD_TRANSIT',
+                title: 'Transit Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                type: 'border',
+                title: 'WISE\'S ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 8,
+                body: '99 Bank Street, Suite 1420\\\nOttawa ON K1P 1H4\\\nCanada\n\nRidgeland Associates Limited is using Wise to receive Canadian dollar payments. You can send money to these details from any bank in Canada.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-12T14:01:09.000000Z',
+            updated_at: '2024-06-20T11:25:33.000000Z',
+            rate: 1.74348,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'cad',
+              code_alphabetic: 'cad',
+              code_numeric: 124,
+              decimal_digits: 2,
+              name: 'Canadian Dollar',
+              name_plural: 'Canadian dollars',
+              rounding: 0,
+              symbol: 'CA$',
+              symbol_native: '$'
+            }
+          },
+          {
+            id: 9,
+            code: 'CZK',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-12T14:01:09.000000Z',
+            updated_at: '2024-06-20T11:25:35.000000Z',
+            rate: 29.4732,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'czk',
+              code_alphabetic: 'czk',
+              code_numeric: 203,
+              decimal_digits: 2,
+              name: 'Czech Republic Koruna',
+              name_plural: 'Czech Republic korunas',
+              rounding: 0,
+              symbol: 'Kč',
+              symbol_native: 'Kč'
+            }
+          },
+          {
+            id: 10,
+            code: 'DKK',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:56.000000Z',
+            updated_at: '2024-06-20T11:25:34.000000Z',
+            rate: 8.82779,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'dkk',
+              code_alphabetic: 'dkk',
+              code_numeric: 208,
+              decimal_digits: 2,
+              name: 'Danish Krone',
+              name_plural: 'Danish kroner',
+              rounding: 0,
+              symbol: 'Dkr',
+              symbol_native: 'kr'
+            }
+          },
+          {
+            id: 11,
+            code: 'EUR',
+            bank_account_details: [
+              {
+                id: 1,
+                body: '**Beneficiary:** Ridgeland Associates Limited',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 2,
+                type: 'border',
+                title: 'BANK DETAILS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 3,
+                body: 'BE55 9670 3665 4444',
+                type: 'EUR_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'TRWIBEB1XXX',
+                type: 'EUR_BANK',
+                title: 'Bank Code (SWIFT / BIC)',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 6,
+                body: 'Avenue Louise 54, Room S52\\\nBrussels\\\n1050\\\nBelgium',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:57.000000Z',
+            updated_at: '2024-06-20T11:25:35.000000Z',
+            rate: 1.18332,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'eur',
+              code_alphabetic: 'eur',
+              code_numeric: 978,
+              decimal_digits: 2,
+              name: 'Euro',
+              name_plural: 'euros',
+              rounding: 0,
+              symbol: '€',
+              symbol_native: '€'
+            }
+          },
+          {
+            id: 12,
+            code: 'HKD',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:57.000000Z',
+            updated_at: '2024-06-20T11:25:35.000000Z',
+            rate: 9.93007,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'hkd',
+              code_alphabetic: 'hkd',
+              code_numeric: 344,
+              decimal_digits: 2,
+              name: 'Hong Kong Dollar',
+              name_plural: 'Hong Kong dollars',
+              rounding: 0,
+              symbol: 'HK$',
+              symbol_native: '$'
+            }
+          },
+          {
+            id: 13,
+            code: 'HUF',
+            bank_account_details: [
+              {
+                id: 2,
+                body: '12600016-18590169-29841016',
+                type: 'HUF_BEN',
+                title: 'Beneficiary',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 1,
+                body: 'Ridgeland Associates Limited',
+                type: 'HUF_ACC',
+                title: 'Account Holder',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 3,
+                body: 'Avenue Louise 54, Room S52\\\nBrussels\\\n1050\\\nBelgium',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:57.000000Z',
+            updated_at: '2024-06-20T11:25:36.000000Z',
+            rate: 468.901,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'huf',
+              code_alphabetic: 'huf',
+              code_numeric: 348,
+              decimal_digits: 0,
+              name: 'Hungarian Forint',
+              name_plural: 'Hungarian forints',
+              rounding: 0,
+              symbol: 'Ft',
+              symbol_native: 'Ft'
+            }
+          },
+          {
+            id: 14,
+            code: 'ILS',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:57.000000Z',
+            updated_at: '2024-06-20T11:25:36.000000Z',
+            rate: 4.71796,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'ils',
+              code_alphabetic: 'ils',
+              code_numeric: 376,
+              decimal_digits: 2,
+              name: 'Israeli New Sheqel',
+              name_plural: 'Israeli new sheqels',
+              rounding: 0,
+              symbol: '₪',
+              symbol_native: '₪'
+            }
+          },
+          {
+            id: 15,
+            code: 'MXN',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:58.000000Z',
+            updated_at: '2024-06-20T11:25:37.000000Z',
+            rate: 23.4486,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'mxn',
+              code_alphabetic: 'mxn',
+              code_numeric: 484,
+              decimal_digits: 2,
+              name: 'Mexican Peso',
+              name_plural: 'Mexican pesos',
+              rounding: 0,
+              symbol: 'MX$',
+              symbol_native: '$'
+            }
+          },
+          {
+            id: 16,
+            code: 'NZD',
+            bank_account_details: [
+              {
+                id: 1,
+                body: '**Beneficiary**: Ridgeland Associates Limited',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 2,
+                type: 'border',
+                title: 'BANK DETAILS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 3,
+                body: '02-1291-0027506-000',
+                type: 'NZ_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 5,
+                body: '**Wise**\\\n56 Shoreditch High Street\\\nLondon\\\nE1 6JJ\\\nUnited Kingdom',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:58.000000Z',
+            updated_at: '2024-06-20T11:25:37.000000Z',
+            rate: 2.07211,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'nzd',
+              code_alphabetic: 'nzd',
+              code_numeric: 554,
+              decimal_digits: 2,
+              name: 'New Zealand Dollar',
+              name_plural: 'New Zealand dollars',
+              rounding: 0,
+              symbol: 'NZ$',
+              symbol_native: '$'
+            }
+          },
+          {
+            id: 17,
+            code: 'NOK',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:58.000000Z',
+            updated_at: '2024-06-20T11:25:37.000000Z',
+            rate: 13.4398,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'nok',
+              code_alphabetic: 'nok',
+              code_numeric: 578,
+              decimal_digits: 2,
+              name: 'Norwegian Krone',
+              name_plural: 'Norwegian kroner',
+              rounding: 0,
+              symbol: 'Nkr',
+              symbol_native: 'kr'
+            }
+          },
+          {
+            id: 18,
+            code: 'PHP',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:58.000000Z',
+            updated_at: '2024-06-20T11:25:38.000000Z',
+            rate: 74.7822,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'php',
+              code_alphabetic: 'php',
+              code_numeric: 608,
+              decimal_digits: 2,
+              name: 'Philippine Peso',
+              name_plural: 'Philippine pesos',
+              rounding: 0,
+              symbol: '₱',
+              symbol_native: '₱'
+            }
+          },
+          {
+            id: 19,
+            code: 'PLN',
+            bank_account_details: [
+              {
+                id: 1,
+                body: '37 1020 1026 3741 0000 0003 4542',
+                type: 'PLN_BEN',
+                title: 'Beneficiary',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 2,
+                body: 'Ridgeland Associates Limited',
+                type: 'PLN_ACC',
+                title: 'Account holder',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 3,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 4,
+                body: '**Wise**\\\nAvenue Louise 54, Room S52\\\nBrussels\\\n1050\\\nBelgium',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:58.000000Z',
+            updated_at: '2024-06-20T11:25:38.000000Z',
+            rate: 5.11979,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'pln',
+              code_alphabetic: 'pln',
+              code_numeric: 985,
+              decimal_digits: 2,
+              name: 'Polish Zloty',
+              name_plural: 'Polish zlotys',
+              rounding: 0,
+              symbol: 'zł',
+              symbol_native: 'zł'
+            }
+          },
+          {
+            id: 20,
+            code: 'RON',
+            bank_account_details: [
+              {
+                id: 1,
+                body: 'BRELROBUXXX',
+                type: 'RON_Bank',
+                title: 'Bank code (SWIFT/BIC)',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 2,
+                body: 'RO94 BREL 0005 4000 9873 0100',
+                type: 'RON_ACC',
+                title: 'Account number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 3,
+                body: 'Ridgeland Associates Limited',
+                type: 'RON_BEN',
+                title: 'Beneficiary',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 5,
+                body: 'Avenue Louise 54, Room S52\\\nBrussels\\\n1050\\\nBelgium',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:59.000000Z',
+            updated_at: '2024-06-20T11:25:39.000000Z',
+            rate: 5.88969,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'ron',
+              code_alphabetic: 'ron',
+              code_numeric: 946,
+              decimal_digits: 2,
+              name: 'Romanian Leu',
+              name_plural: 'Romanian lei',
+              rounding: 0,
+              symbol: 'RON',
+              symbol_native: 'RON'
+            }
+          },
+          {
+            id: 21,
+            code: 'SGD',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'BANK NAME',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: '0516',
+                type: 'SGD_BANK',
+                title: 'Bank Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 3,
+                body: '200-374-7',
+                type: 'SGD_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'FAST',
+                type: 'SGD_PN',
+                title: 'Payment Network',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                type: 'border',
+                title: 'BENEFICIARY',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 6,
+                body: 'Ridgeland Associates Limited',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 7,
+                type: 'border',
+                title: 'ADDRESS',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 8,
+                body: '1 Paya Lebar Link #13-06 - #13-08 PLQ 2,\\\nPaya Lebar Quarter\\\nSingapore 408533',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:59.000000Z',
+            updated_at: '2024-06-20T11:25:39.000000Z',
+            rate: 1.71809,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'sgd',
+              code_alphabetic: 'sgd',
+              code_numeric: 702,
+              decimal_digits: 2,
+              name: 'Singapore Dollar',
+              name_plural: 'Singapore dollars',
+              rounding: 0,
+              symbol: 'S$',
+              symbol_native: '$'
+            }
+          },
+          {
+            id: 22,
+            code: 'ZAR',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:59.000000Z',
+            updated_at: '2024-06-20T11:25:40.000000Z',
+            rate: 22.8122,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'zar',
+              code_alphabetic: 'zar',
+              code_numeric: 710,
+              decimal_digits: 2,
+              name: 'South African Rand',
+              name_plural: 'South African rand',
+              rounding: 0,
+              symbol: 'R',
+              symbol_native: 'R'
+            }
+          },
+          {
+            id: 23,
+            code: 'SEK',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:40:59.000000Z',
+            updated_at: '2024-06-20T11:25:40.000000Z',
+            rate: 13.2817,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'sek',
+              code_alphabetic: 'sek',
+              code_numeric: 752,
+              decimal_digits: 2,
+              name: 'Swedish Krona',
+              name_plural: 'Swedish kronor',
+              rounding: 0,
+              symbol: 'Skr',
+              symbol_native: 'kr'
+            }
+          },
+          {
+            id: 24,
+            code: 'CHF',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:41:00.000000Z',
+            updated_at: '2024-06-20T11:25:40.000000Z',
+            rate: 1.12512,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'chf',
+              code_alphabetic: 'chf',
+              code_numeric: 756,
+              decimal_digits: 2,
+              name: 'Swiss Franc',
+              name_plural: 'Swiss francs',
+              rounding: 0.05,
+              symbol: 'CHF',
+              symbol_native: 'CHF'
+            }
+          },
+          {
+            id: 25,
+            code: 'TWD',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-05-29T15:41:00.000000Z',
+            updated_at: '2024-06-07T10:13:38.000000Z',
+            rate: 39.3502,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'twd',
+              code_alphabetic: 'twd',
+              code_numeric: 901,
+              decimal_digits: 2,
+              name: 'New Taiwan Dollar',
+              name_plural: 'New Taiwan dollars',
+              rounding: 0,
+              symbol: 'NT$',
+              symbol_native: 'NT$'
+            }
+          },
+          {
+            id: 30,
+            code: 'AUD',
+            bank_account_details: [
+              {
+                id: 1,
+                body: 'Ridgeland Associates Limited',
+                type: 'AUD_BEN',
+                title: 'Beneficiary',
+                hidden: false,
+                description: null
+              },
+              {
+                id: 2,
+                body: '774-001',
+                type: 'AUD_BSB',
+                title: 'BSB',
+                hidden: false,
+                description: null
+              },
+              {
+                id: 3,
+                body: '212065759',
+                type: 'AUD_ACCT',
+                title: 'Account number',
+                hidden: false,
+                description: null
+              },
+              {
+                id: 4,
+                body: 'Wise Australia Pty Ltd Suite 1, Level 11,66 Goulburn Street Sydney 2000 Australia',
+                type: 'AUD_ADDRESS',
+                title: 'Address',
+                hidden: false,
+                description: null
+              }
+            ],
+            status: 1,
+            created_at: '2023-07-16T12:58:50.000000Z',
+            updated_at: '2024-06-20T11:25:33.000000Z',
+            rate: 1.90568,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'aud',
+              code_alphabetic: 'aud',
+              code_numeric: 36,
+              decimal_digits: 2,
+              name: 'Australian Dollar',
+              name_plural: 'Australian dollars',
+              rounding: 0,
+              symbol: 'AU$',
+              symbol_native: '$'
+            }
+          },
+          {
+            id: 31,
+            code: 'INR',
+            bank_account_details: [
+              {
+                id: 1,
+                type: 'border',
+                title: 'IMPORTANT NOTE',
+                showBorder: true,
+                componentType: 'border'
+              },
+              {
+                id: 2,
+                body: 'For most currencies paying by bank transfer, you must pay in pounds sterling (GBP) only, as our general bank account only holds a GBP account with HSBC.\n\nIf you are in any of the following countries, we hold Wise accounts in these currencies, which can be accessed by residents of those countries. \\\n\\\nUSA, EUR, CAD, GBP, AUD, NZD, PLN, HUF, SGD, RON\\\n\\\nGo back to the store and change your currency to pay in that currency.\n\nOtherwise, before confirming your order, please change the currency to GBP to get the correct amount. All fees associated with the transaction must be paid by you.',
+                type: 'markdown',
+                title: 'Markdown',
+                hidden: false,
+                componentType: 'markdown'
+              },
+              {
+                id: 3,
+                body: 'HSBC',
+                type: 'DEF_BANK',
+                title: 'Bank',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 4,
+                body: 'Ridgeland Associates Limited',
+                type: 'DEF_NAME',
+                title: 'Account Name',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 5,
+                body: '400518',
+                type: 'DEF_SORT',
+                title: 'Sort Code',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 6,
+                body: '12286610',
+                type: 'DEF_ACC',
+                title: 'Account Number',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 7,
+                body: 'GB12MIDL40051812286610',
+                type: 'DEF_IBAN',
+                title: 'IBAN',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              },
+              {
+                id: 8,
+                body: 'MIDLGB2107G',
+                type: 'DEF_BIC',
+                title: 'BIC',
+                hidden: false,
+                description: null,
+                componentType: 'details'
+              }
+            ],
+            status: 1,
+            created_at: '2023-09-25T14:32:41.000000Z',
+            updated_at: '2024-06-20T11:25:34.000000Z',
+            rate: 106.114,
+            decimals: 2,
+            type: 'priced',
+            data: {
+              id: 'inr',
+              code_alphabetic: 'inr',
+              code_numeric: 356,
+              decimal_digits: 2,
+              name: 'Indian Rupee',
+              name_plural: 'Indian rupees',
+              rounding: 0,
+              symbol: 'Rs',
+              symbol_native: 'টকা'
+            }
+          }
+        ],
+        payment_methods: [
+          {
+            id: 125,
+            integration_id: 3,
+            external_id: 'cash',
+            parent_id: null,
+            type: 'payment_methods',
+            name: 'Cash',
+            value: 'cash',
+            options: {
+              id: 'cash',
+              name: 'Cash',
+              description: 'test',
+              instructions: null,
+              manual: true
+            },
+            status: 1,
+            created_at: '2023-07-16T07:27:57.000000Z',
+            updated_at: '2024-06-20T11:25:41.000000Z',
+            deleted_at: null,
+            discount: {
+              id: 5,
+              belongable_type: 'App\\Models\\PaymentMethod',
+              belongable_id: 125,
+              name: 'Cash',
+              amount: 15,
+              type: 1,
+              status: 1,
+              created_at: '2023-07-16T09:52:57.000000Z',
+              updated_at: '2023-12-14T06:50:22.000000Z',
+              deleted_at: null
+            }
+          },
+          {
+            id: 126,
+            integration_id: 3,
+            external_id: 'transferwise',
+            parent_id: null,
+            type: 'payment_methods',
+            name: 'Transferwise',
+            value: 'transferwise',
+            options: {
+              id: 'transferwise',
+              name: 'Transferwise',
+              description: 'Pay with Transferwise to save  ',
+              instructions: '{{bank_details}}',
+              manual: true
+            },
+            status: 1,
+            created_at: '2023-07-16T07:27:57.000000Z',
+            updated_at: '2024-06-20T11:25:41.000000Z',
+            deleted_at: null,
+            discount: {
+              id: 6,
+              belongable_type: 'App\\Models\\PaymentMethod',
+              belongable_id: 126,
+              name: 'Transferwise',
+              amount: 7,
+              type: 1,
+              status: 1,
+              created_at: '2023-07-16T09:54:21.000000Z',
+              updated_at: '2024-06-05T10:13:51.000000Z',
+              deleted_at: null
+            }
+          }
+        ]
+      },
+      loadingMessage: null,
+      initialLoad: false,
+      currencyList: [
+        {
+          code: 'GBP',
+          rate: 1,
+          name: 'British Pound Sterling',
+          symbol: '£',
+          decimals: 2,
+          priced: true,
+          type: 'base'
+        },
+        {
+          code: 'USD',
+          rate: 1.26823,
+          name: 'US Dollar',
+          symbol: '$',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'AUD',
+          rate: 1.90583,
+          name: 'Australian Dollar',
+          symbol: '$',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'CAD',
+          rate: 1.73217,
+          name: 'Canadian Dollar',
+          symbol: '$',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'INR',
+          rate: 105.84699,
+          name: 'Indian Rupee',
+          symbol: '₹',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'DKK',
+          rate: 8.81445,
+          name: 'Danish Krone',
+          symbol: 'kr',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'CZK',
+          rate: 29.40199,
+          name: 'Czech Republic Koruna',
+          symbol: 'Kč',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'EUR',
+          rate: 1.18167,
+          name: 'Euro',
+          symbol: '€',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'HKD',
+          rate: 9.90237,
+          name: 'Hong Kong Dollar',
+          symbol: '$',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'HUF',
+          rate: 466.93109,
+          name: 'Hungarian Forint',
+          symbol: 'Ft',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'ILS',
+          rate: 4.72269,
+          name: 'Israeli New Sheqel',
+          symbol: '₪',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'MXN',
+          rate: 22.76748,
+          name: 'Mexican Peso',
+          symbol: '$',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'NZD',
+          rate: 2.07227,
+          name: 'New Zealand Dollar',
+          symbol: '$',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'NOK',
+          rate: 13.36653,
+          name: 'Norwegian Krone',
+          symbol: 'kr',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'PHP',
+          rate: 74.55267,
+          name: 'Philippine Peso',
+          symbol: '₱',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'PLN',
+          rate: 5.07266,
+          name: 'Polish Zloty',
+          symbol: 'zł',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'RON',
+          rate: 5.88128,
+          name: 'Romanian Leu',
+          symbol: 'lei',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'SGD',
+          rate: 1.71574,
+          name: 'Singapore Dollar',
+          symbol: 'S$',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'ZAR',
+          rate: 22.9642,
+          name: 'South African Rand',
+          symbol: 'R',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'SEK',
+          rate: 13.28607,
+          name: 'Swedish Krona',
+          symbol: 'kr',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        },
+        {
+          code: 'CHF',
+          rate: 1.13283,
+          name: 'Swiss Franc',
+          symbol: 'CHF',
+          decimals: 2,
+          priced: true,
+          type: 'priced'
+        }
+      ],
+      currency: 'GBP',
+      symbol: '£',
+      addressList: {
+        count: 15,
+        pageCount: 1,
+        page: 1,
+        results: [
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Yashfeen Mirza',
+            firstName: 'Yashfeen',
+            lastName: 'Mirza',
+            address1: 'Cnr. Rouse Hill Drive & Caddies Boulevard',
+            address2: null,
+            city: 'Sydney',
+            state: 'NSW',
+            zip: '2155',
+            country: 'AU',
+            phone: '+61288013900',
+            fingerprint: 'ad7a07942909ec6d0bdf2c7071ed2938',
+            dateCreated: '2024-06-04T06:03:04.130Z',
+            active: true,
+            id: '665eae18f7075f00119efb0a'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Saad Ullah2',
+            firstName: 'Saad',
+            lastName: 'Ullah2',
+            address1: '24 Browning RD',
+            address2: null,
+            city: 'Boronia',
+            state: 'VIC',
+            zip: '3155',
+            country: 'AU',
+            phone: '+61435525519',
+            fingerprint: '754c2ee54dbf7b70ef9ded036d4985f5',
+            dateCreated: '2023-12-20T04:51:33.216Z',
+            active: true,
+            company: null,
+            dateUpdated: '2024-05-01T12:29:35.385Z',
+            id: '658272d5dc00640011f4e28c'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'qwdwqsd qwdqwd',
+            address1: 'c-32/034 military quarters near',
+            address2: 'Red Creascent hospital minrara road sukkur',
+            city: 'sukkur',
+            state: 'BDF',
+            zip: '65200',
+            country: 'GB',
+            phone: '+923133143434',
+            active: true,
+            firstName: 'qwdwqsd',
+            lastName: 'qwdqwd',
+            fingerprint: 'c01fc15f9d1649be1c514be5d3aeda15',
+            dateCreated: '2023-12-18T12:10:22.319Z',
+            dateUpdated: '2024-05-30T03:00:53.273Z',
+            id: '658036ae79b26e0012958b07'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'HAssan Ahmed',
+            address1: 'dkbcksffgvb5',
+            address2: 'eqwfouhweiuf',
+            city: 'sukkur',
+            state: 'NSW',
+            zip: '65200',
+            country: 'AU',
+            phone: '+923133143434',
+            active: true,
+            firstName: 'HAssan',
+            lastName: 'Ahmed',
+            fingerprint: 'fab9470533537c9ae127e83f3f81975f',
+            dateCreated: '2023-12-18T11:01:42.257Z',
+            company: null,
+            dateUpdated: '2024-06-10T05:32:50.221Z',
+            id: '65802696e819f80012376c91'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'HAssan Ahmed',
+            address1: 'Qasim park ',
+            address2: null,
+            city: 'sukkur',
+            state: 'JK',
+            zip: '65200',
+            country: 'PK',
+            phone: '+923133143434',
+            active: true,
+            firstName: 'HAssan',
+            lastName: 'Ahmed',
+            fingerprint: '831aaf8908804fa72bb8d483c55d89c2',
+            dateCreated: '2023-12-18T04:03:14.892Z',
+            company: null,
+            dateUpdated: '2024-05-07T04:28:03.120Z',
+            id: '657fc482e6ffdc0011cf36c8'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Hassan Ahmed',
+            firstName: 'Hassan',
+            lastName: 'Ahmed',
+            address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+            address2: null,
+            city: 'Melbourne',
+            state: 'Victoria',
+            zip: '3001',
+            country: 'AU',
+            phone: '+923133143434',
+            company: null,
+            fingerprint: '1bd10b73362fa0d379ccf4e71819d94f',
+            dateCreated: '2023-09-27T08:08:09.362Z',
+            active: true,
+            dateUpdated: '2024-01-16T02:39:48.380Z',
+            id: '6513e2e9dfcf8000124c4e95'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Hassan Ahmed',
+            address1: '78 Academy St',
+            address2: null,
+            city: 'Inverness',
+            state: 'HLD',
+            zip: 'IV1 1LU',
+            country: 'GB',
+            phone: '+441463226688',
+            active: true,
+            firstName: 'Hassan',
+            lastName: 'Ahmed',
+            fingerprint: '56d70813db6ef0429a2b755b82820d6b',
+            dateCreated: '2023-09-25T08:29:15.618Z',
+            dateUpdated: '2024-01-16T03:29:54.184Z',
+            company: null,
+            id: '651144db01e0070011833ed2'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'HAssan Ahmed',
+            address1: ' de Mardurassteeg 22-q Hantumhuizen DER',
+            address2: null,
+            city: 'Hantumhuizen',
+            state: 'BPL',
+            zip: '6621KN',
+            country: 'GB',
+            phone: '+923088993272',
+            active: true,
+            firstName: 'HAssan',
+            lastName: 'Ahmed',
+            fingerprint: 'd6eb885188f77c3341233b63a3013705',
+            dateCreated: '2023-09-14T13:15:44.602Z',
+            checkoutAddress: 'selected:1',
+            company: null,
+            dateUpdated: '2023-09-14T13:20:23.418Z',
+            email: null,
+            hasTaxNumber: false,
+            password: null,
+            taxNumber: null,
+            id: '650307806a1c7900139ece0d'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'HAssan Ahmed',
+            address1: 'de Mardurassteeg 22-q',
+            address2: null,
+            city: 'Hantumhuizen',
+            state: 'DER',
+            zip: '6621KN',
+            country: 'GB',
+            phone: '+31900659457',
+            active: true,
+            firstName: 'HAssan',
+            lastName: 'Ahmed',
+            fingerprint: '0de361b97268f665e853b5bc43a5bf9c',
+            dateCreated: '2023-09-14T13:13:41.105Z',
+            id: '650307053a46570012ec2135'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Hassan Ahmed',
+            address1: 'Block 9 clifton karachi',
+            address2: null,
+            city: 'Karachi',
+            state: 'SD',
+            zip: '65200',
+            country: 'PK',
+            phone: '+923133143434',
+            active: true,
+            firstName: 'Hassan',
+            lastName: 'Ahmed',
+            fingerprint: 'f60ccbddce35bcd66e729010c9fefd02',
+            dateCreated: '2023-09-14T13:03:11.647Z',
+            dateUpdated: '2024-04-16T17:01:08.227Z',
+            company: null,
+            checkoutAddress: 'selected:0',
+            email: null,
+            hasTaxNumber: false,
+            password: null,
+            taxNumber: null,
+            id: '6503048f4aa55a001344f2c2'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Ibad Bhutto',
+            firstName: 'Ibad',
+            lastName: 'Bhutto',
+            address1: '24 minchunbury',
+            address2: null,
+            city: 'Melbourne',
+            state: 'VIC',
+            zip: '3133',
+            country: 'AU',
+            phone: '+61435525519',
+            fingerprint: '5c81fd9b1f733b4c9b247aa92f3f8484',
+            dateCreated: '2023-09-06T12:19:09.215Z',
+            active: true,
+            dateUpdated: '2024-06-13T09:13:59.140Z',
+            company: null,
+            id: '64f86e3db9a5f800119f4b7c'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'John Doe',
+            firstName: 'John',
+            lastName: 'Doe',
+            address1: '1 Cheeseman Ave Brighton East',
+            address2: null,
+            city: 'Melbourne',
+            state: 'Victoria',
+            zip: '3001',
+            country: 'AU',
+            phone: '+923133143434',
+            company: null,
+            fingerprint: 'd9846223ceb2aa9c45c5db8d39437d83',
+            dateCreated: '2023-09-04T19:52:43.448Z',
+            active: true,
+            dateUpdated: '2024-06-10T04:39:35.387Z',
+            id: '64f6358b0f36920012e2d922'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Aasmaa Shaikh',
+            address1: '1 Cheeseman Ave Brighton East',
+            address2: null,
+            city: 'Thomastown',
+            state: 'VIC',
+            zip: '3074',
+            country: 'AU',
+            phone: '+61404749997',
+            active: true,
+            firstName: 'Aasmaa',
+            lastName: 'Shaikh',
+            fingerprint: '1344b562649ed9118551126d9a735fe6',
+            dateCreated: '2023-08-21T05:38:15.632Z',
+            dateUpdated: '2024-06-13T10:57:49.911Z',
+            company: null,
+            id: '64e2f8475a54da00128cf33e'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Hassan Ahmed',
+            firstName: 'Hassan',
+            lastName: 'Ahmed',
+            address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+            address2: null,
+            city: 'Victoria',
+            state: '09',
+            zip: '3074',
+            country: 'AU',
+            phone: '+923133143434',
+            fingerprint: 'eb211060696df3f6e02d3df610ca12d9',
+            dateCreated: '2023-07-14T14:04:25.526Z',
+            active: true,
+            dateUpdated: '2024-06-13T11:50:30.524Z',
+            checkoutAddress: 'selected:1',
+            company: null,
+            email: null,
+            password: null,
+            id: '64b155e9bd39b20012fb6446'
+          },
+          {
+            parentId: '64b1529ca4375c0012044734',
+            name: 'Hassan Ahmed',
+            address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+            address2: null,
+            city: 'Victoria',
+            state: '09',
+            zip: '3074',
+            country: 'DZ',
+            phone: '+923133143434',
+            active: true,
+            firstName: 'Hassan',
+            lastName: 'Ahmed',
+            fingerprint: 'a84086e636ee79f8dec255718aa349c4',
+            dateCreated: '2023-07-14T13:58:43.300Z',
+            checkoutAddress: 'selected:1',
+            company: null,
+            dateUpdated: '2023-07-14T14:00:41.784Z',
+            email: null,
+            password: null,
+            id: '64b15493280c6c00122976ae'
+          }
+        ]
+      },
+      shippingRates: {
+        dateCreated: '2024-06-25T09:43:31.733Z',
+        fingerprint: '2c297e6b432307624674410de72891ff',
+        services: [
+          {
+            id: 'standard_shipping_custom',
+            requestId: '667a91446b901',
+            name: 'standard_shipping_custom',
+            price: 0,
+            deliveries: [
+              {
+                id: 0,
+                isSplitDelivery: false,
+                hasAtl: false,
+                minPrice: 0,
+                maxPrice: 0,
+                totalPrice: 0,
+                currency: 'GBP',
+                locality: 'AU',
+                message: '',
+                totalDays: 0,
+                minDeliveryDate: '2024-06-25T09:43:32+00:00',
+                maxDeliveryDate: '2024-06-25T09:43:32+00:00',
+                variants: [
+                  {
+                    id: '64699d3d6000a0001265ff9c',
+                    productId: '64699d3d6000a0001265ff9c',
+                    variantId: '64699fd61bedc2001331a88e',
+                    productName: 'Compressa',
+                    shipmentWeight: 34000,
+                    sku: ''
+                  }
+                ],
+                services: [
+                  {
+                    name: 'Standard Shipping',
+                    currency: 'GBP',
+                    price: 0,
+                    conversionRate: 0,
+                    deliveryTime: '2024-06-25T09:43:32+00:00',
+                    carrierServiceId: 'standard_shipping_custom',
+                    etaDate: '2024-06-25T09:43:32+00:00',
+                    vendorId: '0',
+                    productIds: ''
+                  }
+                ]
+              }
+            ],
+            generatedAt: '2024-06-25T09:43:32+00:00'
+          },
+          {
+            id: 'standard',
+            name: 'Standard Shipping',
+            price: 5,
+            description: 'Standard shipping service'
+          },
+          {
+            id: 'express',
+            name: 'Express Shipping',
+            price: 15,
+            description: 'Express shipping service'
+          }
+        ]
+      },
+      deliveryService: {
+        id: 'standard_shipping_custom',
+        requestId: '667a91446b901',
+        name: 'standard_shipping_custom',
+        price: 0,
+        deliveries: [
+          {
+            id: 0,
+            isSplitDelivery: false,
+            hasAtl: false,
+            minPrice: 0,
+            maxPrice: 0,
+            totalPrice: 0,
+            currency: 'GBP',
+            locality: 'AU',
+            message: '',
+            totalDays: 0,
+            minDeliveryDate: '2024-06-25T09:43:32+00:00',
+            maxDeliveryDate: '2024-06-25T09:43:32+00:00',
+            variants: [
+              {
+                id: '64699d3d6000a0001265ff9c',
+                productId: '64699d3d6000a0001265ff9c',
+                variantId: '64699fd61bedc2001331a88e',
+                productName: 'Compressa',
+                shipmentWeight: 34000,
+                sku: ''
+              }
+            ],
+            services: [
+              {
+                name: 'Standard Shipping',
+                currency: 'GBP',
+                price: 0,
+                conversionRate: 0,
+                deliveryTime: '2024-06-25T09:43:32+00:00',
+                carrierServiceId: 'standard_shipping_custom',
+                etaDate: '2024-06-25T09:43:32+00:00',
+                vendorId: '0',
+                productIds: ''
+              }
+            ]
+          }
+        ],
+        generatedAt: '2024-06-25T09:43:32+00:00',
+        isStandardShipping: true
+      },
+      tempShipping: [],
+      cardsList: [
+        {
+          parentId: '64b1529ca4375c0012044734',
+          billing: {
+            name: 'John Doe',
+            firstName: 'John',
+            lastName: 'Doe',
+            address1: '1 Cheeseman Ave Brighton East',
+            address2: null,
+            city: 'Melbourne',
+            state: 'Victoria',
+            zip: '3001',
+            country: 'AU',
+            phone: '+923133143434',
+            company: null
+          },
+          brand: 'mastercard',
+          last4: '3222',
+          expMonth: 11,
+          expYear: 2025,
+          token: 'pm_1NmbpmDzRzhkSC0YphjhyQV2',
+          addressCheck: 'pass',
+          zipCheck: 'pass',
+          cvcCheck: 'pass',
+          fingerprint: 'e271f0e2cb35153aeea2d884299503c9',
+          dateCreated: '2023-09-04T12:25:08.320Z',
+          active: true,
+          dateUpdated: '2024-05-08T09:04:23.481Z',
+          id: '64f5cca4eccff30011d8b0e2'
+        },
+        {
+          parentId: '64b1529ca4375c0012044734',
+          billing: {
+            name: 'Saad Ullah2',
+            firstName: 'Saad',
+            lastName: 'Ullah2',
+            address1: '24 Browning RD',
+            address2: null,
+            city: 'Boronia',
+            state: 'VIC',
+            zip: '3155',
+            country: 'AU',
+            phone: '+61435525519',
+            company: null
+          },
+          brand: 'mastercard',
+          last4: '5100',
+          expMonth: 11,
+          expYear: 2029,
+          token: 'pm_1NmbbLDzRzhkSC0YDy3ei1wH',
+          addressCheck: 'pass',
+          zipCheck: 'pass',
+          cvcCheck: 'pass',
+          fingerprint: '4e0e215006a2b78a9fba571afd0181e3',
+          dateCreated: '2023-09-04T11:56:03.250Z',
+          active: true,
+          dateUpdated: '2023-12-20T07:40:58.680Z',
+          id: '64f5c5d32bc9320012894fa1'
+        },
+        {
+          parentId: '64b1529ca4375c0012044734',
+          billing: {
+            name: 'Ibad Bhutto',
+            firstName: 'Ibad',
+            lastName: 'Bhutto',
+            address1: '24 minchunbury',
+            address2: null,
+            city: 'Melbourne',
+            state: 'VIC',
+            zip: '3133',
+            country: 'AU',
+            phone: '+61435525519',
+            company: null
+          },
+          brand: 'mastercard',
+          last4: '8210',
+          expMonth: 11,
+          expYear: 2025,
+          token: 'pm_1NmbFRDzRzhkSC0YIwBRX4LC',
+          addressCheck: 'pass',
+          zipCheck: 'pass',
+          cvcCheck: 'pass',
+          fingerprint: '5da55dcaad7aed340671a44885c077b2',
+          dateCreated: '2023-09-04T11:47:27.091Z',
+          active: true,
+          dateUpdated: '2023-12-20T09:45:03.259Z',
+          id: '64f5c3cff791570012fd7add'
+        },
+        {
+          parentId: '64b1529ca4375c0012044734',
+          billing: {
+            name: 'John Doe',
+            firstName: 'John',
+            lastName: 'Doe',
+            address1: '1 Cheeseman Ave Brighton East',
+            address2: null,
+            city: 'Melbourne',
+            state: 'Victoria',
+            zip: '3001',
+            country: 'AU',
+            phone: '+923133143434',
+            company: null
+          },
+          brand: 'amex',
+          last4: '0005',
+          expMonth: 11,
+          expYear: 2029,
+          token: 'pm_1NmbBZDzRzhkSC0YXqpNfEnn',
+          addressCheck: 'pass',
+          zipCheck: 'pass',
+          cvcCheck: 'pass',
+          fingerprint: 'aca5dc6a32631e0fd5ad1670f616b6c1',
+          dateCreated: '2023-09-04T11:43:27.281Z',
+          active: true,
+          dateUpdated: '2023-12-21T11:23:20.352Z',
+          id: '64f5c2df2bc9320012894eca'
+        },
+        {
+          parentId: '64b1529ca4375c0012044734',
+          billing: {
+            name: 'Ibad Bhutto',
+            firstName: 'Ibad',
+            lastName: 'Bhutto',
+            address1: '24 minchunbury',
+            address2: null,
+            city: 'Melbourne',
+            state: 'VIC',
+            zip: '3133',
+            country: 'AU',
+            phone: '+61435525519',
+            company: null
+          },
+          brand: 'mastercard',
+          last4: '4444',
+          expMonth: 11,
+          expYear: 2026,
+          token: 'pm_1Nmip1DzRzhkSC0Y7sgiP05N',
+          addressCheck: 'pass',
+          zipCheck: 'pass',
+          cvcCheck: 'pass',
+          fingerprint: '271a16f49ca20560ecc5664113e3b02c',
+          dateCreated: '2023-09-04T10:14:24.201Z',
+          active: true,
+          dateUpdated: '2023-12-20T09:57:17.858Z',
+          id: '64f5ae00ad32ab001283f1ae'
+        },
+        {
+          parentId: '64b1529ca4375c0012044734',
+          billing: {
+            name: 'Ibad Bhutto',
+            firstName: 'Ibad',
+            lastName: 'Bhutto',
+            address1: '24 minchunbury',
+            address2: null,
+            city: 'Melbourne',
+            state: 'VIC',
+            zip: '3133',
+            country: 'AU',
+            phone: '+61435525519',
+            company: null
+          },
+          brand: 'visa',
+          last4: '5556',
+          expMonth: 11,
+          expYear: 2026,
+          token: 'pm_1NmZl1DzRzhkSC0YzFfvHVl1',
+          addressCheck: 'pass',
+          zipCheck: 'pass',
+          cvcCheck: 'pass',
+          fingerprint: '4fc53d6b08d9d4b3bfece4f38f51ebe3',
+          dateCreated: '2023-09-04T10:12:15.174Z',
+          active: true,
+          dateUpdated: '2024-01-16T05:53:38.474Z',
+          id: '64f5ad7fa85ff50012c55a85'
+        },
+        {
+          parentId: '64b1529ca4375c0012044734',
+          billing: {
+            name: 'Ibad Bhutto',
+            firstName: 'Ibad',
+            lastName: 'Bhutto',
+            address1: '24 minchunbury',
+            address2: null,
+            city: 'Melbourne',
+            state: 'VIC',
+            zip: '3133',
+            country: 'AU',
+            phone: '+61435525519',
+            company: null
+          },
+          brand: 'visa',
+          last4: '4242',
+          expMonth: 11,
+          expYear: 2029,
+          token: 'pm_1ON8kuDzRzhkSC0YUIh18mpz',
+          addressCheck: 'pass',
+          zipCheck: 'pass',
+          cvcCheck: 'pass',
+          fingerprint: 'a3f88a45c7898d290748cc384d7e2ace',
+          dateCreated: '2023-08-01T06:10:47.612Z',
+          active: true,
+          dateUpdated: '2024-05-07T04:24:00.553Z',
+          id: '64c8a1e79044310012f44ce1'
+        }
+      ],
+      checkoutId: '58a60539c3113bb1daef101d07c5854f',
+      bankData: [
+        {
+          id: 1,
+          body: '**BENEFICIARY:** Ridgeland Associates Limited',
+          type: 'markdown',
+          title: 'Markdown',
+          hidden: false,
+          componentType: 'markdown'
+        },
+        {
+          id: 2,
+          type: 'border',
+          title: 'INSIDE UNITED KINGDOM',
+          showBorder: true,
+          componentType: 'border'
+        },
+        {
+          id: 3,
+          body: '23-14-70',
+          type: 'UK_SORT',
+          title: 'UK Sort Code',
+          hidden: false,
+          description: null,
+          componentType: 'details'
+        },
+        {
+          id: 4,
+          body: '99690539',
+          type: 'UK_ACC',
+          title: 'Account Number',
+          hidden: false,
+          description: null,
+          componentType: 'details'
+        },
+        {
+          id: 5,
+          body: 'GB03 TRWI 2314 7099 6905 39',
+          type: 'UK_IBAN',
+          title: 'IBAN',
+          hidden: false,
+          description: '(to receive GBP from UK only)',
+          componentType: 'details'
+        },
+        {
+          id: 6,
+          type: 'border',
+          title: 'OUTSIDE UNITED KINGDOM',
+          showBorder: true,
+          componentType: 'border'
+        },
+        {
+          id: 7,
+          body: 'TRWIGB2L',
+          type: 'UK_SWIFT',
+          title: 'SWIFT/BIC',
+          hidden: false,
+          description: null,
+          componentType: 'details'
+        },
+        {
+          id: 8,
+          body: 'GB03 TRWI 2314 7099 6905 39',
+          type: 'UK_IBAN_OUT',
+          title: 'IBAN',
+          hidden: false,
+          description: null,
+          componentType: 'details'
+        },
+        {
+          id: 9,
+          type: 'border',
+          title: 'ADDRESS',
+          showBorder: true,
+          componentType: 'border'
+        },
+        {
+          id: 10,
+          body: '**TransferWise**\\\n56 Shoreditch High Street\\\nLondon\\\nE1 6JJ\\\nUnited Kingdom',
+          type: 'markdown',
+          title: 'Markdown',
+          hidden: false,
+          componentType: 'markdown'
+        }
+      ],
+      customer: {
+        type: 'individual',
+        shipping: {
+          accountAddressId: '64b155e9bd39b20012fb6446',
+          name: 'Hassan Ahmed',
+          firstName: 'Hassan',
+          lastName: 'Ahmed',
+          address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+          address2: null,
+          city: 'Victoria',
+          state: '09',
+          zip: '3074',
+          country: 'AU',
+          phone: '+923133143434',
+          company: null
+        },
+        phone: null,
+        orderValue: 1819306.82,
+        orderCount: 546,
+        name: 'Hassan Ahmed',
+        metadata: {
+          verifiedPhone: [
+            '+923133143434'
+          ]
+        },
+        lastName: 'Ahmed',
+        firstName: 'Hassan',
+        emailOptin: true,
+        email: 'hassan@devkind.com.au',
+        dateLastOrder: '2024-06-13T11:50:31.341Z',
+        dateFirstOrder: '2023-07-14T14:04:27.411Z',
+        dateCreated: '2023-07-14T13:50:20.795Z',
+        billing: {
+          name: 'Hassan Ahmed',
+          firstName: 'Hassan',
+          lastName: 'Ahmed',
+          address1: '1 Cheeseman Ave Brighton East Thomastown, VIC',
+          address2: null,
+          city: 'Victoria',
+          state: 'VIC',
+          zip: '3074',
+          country: 'AU',
+          phone: '+923133143434'
+        },
+        balance: 0,
+        id: '64b1529ca4375c0012044734'
+      }
+    }
+  }

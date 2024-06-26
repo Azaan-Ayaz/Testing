@@ -34,7 +34,8 @@
                             "deliveryLines": [
                                 {
                                     "destinationAddress": {
-                                        "name": "azaan",
+                                        "name": "azaan",        // WordPress, Woocommerce & Swell allow First Name and Last Name concatenation, but Shopify does not allow this.WordPress and Woocommerce allow First Name and Last Name concatenation, but Shopify does not allow this
+
                                         "firstName": "azaan",
                                         "lastName": "ayaz",
                                         "company": null,

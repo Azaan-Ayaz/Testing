@@ -1,0 +1,49 @@
+{
+    "rate": {
+      "origin": {
+        "country": "US",
+        "postal_code": "94103",
+        "province": "CA",
+        "city": "San Francisco",
+        "name": "Example Store",
+        "address1": "1st Street",
+        "address2": "",
+        "address3": null,
+        "phone": "555-555-5555",
+        "fax": null,
+        "email": "example@example.com"
+      },
+      "destination": {
+        "country": "AU",
+        "postal_code": "2203",
+        "province": "NSW",
+        "city": "Sydney",
+        "name": "azaan ayaz",
+        "address1": "302 Old Canterbury Rd",
+        "address2": "",
+        "address3": null,
+        "phone": "61489921018",
+        "fax": null,
+        "email": "example@example.com"
+      },
+      "items": [
+        {
+          "name": "Example Item",
+          "sku": "example-item",
+          "quantity": 1,
+          "grams": 200,
+          "price": 1999,
+          "vendor": "Example Vendor",
+          "requires_shipping": true,
+          "taxable": true,
+          "fulfillment_service": "manual",
+          "properties": {},
+          "product_id": 123456789,
+          "variant_id": 987654321
+        }
+      ],
+      "currency": "AUD",
+      "locale": "en"
+    }
+  }
+  
