@@ -1,0 +1,10 @@
+{
+    "id": "your_rate_id_here",
+    "label": "",
+    "cost": "0",
+    "taxes": "",
+    "calc_tax": "per_order",
+    "meta_data": [],
+    "package": false,
+    "price_decimals": "your_price_decimals_here"
+}
